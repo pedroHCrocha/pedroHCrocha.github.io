@@ -11,19 +11,19 @@ redirect_from:
 
 Education
 ======
-* B.S. (1º in-class) in Economics, Federal University of Paraiba, 2014-2018
-* M.S. (in progress) in Applied Economics, Federal University of Paraiba, 2019 - 
+* Graduação (1º da turma) em Economia, Universidade Federal da Paraíba, 2014-2018
+* Mestrando em Economia Aplicada, Universidade Federal da Paraíba, 2019 - 
 
 Work experience
 ======
-* 2016 - 2017: Research Assistant
-  * Federal University of Paraiba
-  * Duties included: Scientific research; Data Mining; Statistical Modeling
+* 2016 - 2017: Pesquisador Assistente
+  * Universidade Federal da Paraíba
+  * Atividades: Pesquisa científica; Mineração de Dados; Modelagem estatística.
   * Supervisor: Phd. Hélio de Ramos de Sousa Filho
 
-* Dec, 2018 - March,2019: Research Assistant
-  * Laboratory of Applied Economics and Modeling (LEMA) - UFPB 
-  * Duties included: Organizing datasheets; Basic Python programming training;  
+* Dez, 2018 - Mar,2019: Pesquisador Assistente
+  * Laboratório de Economia Aplicada e Modelagem (LEMA) - UFPB 
+  * Atividades: Manutenção de planilhas; Treinamento básico de Flask (Python);  
   * Supervisor: Phd. Hilton Martins de Brito Ramalho; Phd. Aléssio Tony Cavalcanti de Almeida
   
 Skills
@@ -31,5 +31,6 @@ Skills
 * R 
 * Python (pandas, scikit-learn, numpy)
 * Git
-* Html, CSS
+* HTML, CSS, Bootstrap
+* JavaScript (em treinamento)
 

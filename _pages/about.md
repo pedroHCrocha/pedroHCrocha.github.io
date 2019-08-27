@@ -8,7 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my academic Website!
+Olá mundo,
 
-Here i wish to post many interesting things regarding applied microecomics, education, basketball and machine learning & AI.
-That's it for now. Bye!
+Bem-Vindo ao meu site acadêmico.
+
+Aqui eu desejo postar muitas coisas interessantes relacionando minhas pequisas e publicações, postagem sobre educação, basquete, machine learning e projetos! 
+
+Por enquanto, o site está em construção, então, é só isso por agora. 
+
+Até mais!

@@ -9,12 +9,12 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+Educação
 ======
 * Graduação (1º da turma) em Economia, Universidade Federal da Paraíba, 2014-2018
 * Mestrando em Economia Aplicada, Universidade Federal da Paraíba, 2019 - 
 
-Work experience
+Experiência
 ======
 * 2016 - 2017: Pesquisador Assistente
   * Universidade Federal da Paraíba
@@ -26,7 +26,7 @@ Work experience
   * Atividades: Manutenção de planilhas; Treinamento básico de Flask (Python);  
   * Supervisor: Phd. Hilton Martins de Brito Ramalho; Phd. Aléssio Tony Cavalcanti de Almeida
   
-Skills
+Habilidades
 ======
 * R 
 * Python (pandas, scikit-learn, numpy)

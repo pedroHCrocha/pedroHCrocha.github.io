@@ -10,7 +10,7 @@ locale                   : "pt-BR"
 title                    : "Pedro H"
 title_separator          : "-"
 name                     : &name "Pedro H"
-description              : &description "MA student of Applied Economics at UFPB"
+description              : &description "Mestrando em Economia Aplicada, UFPB - Brasil"
 url                      : https://pedrohcrocha.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "pedrohcrocha.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Pedro H. C. Rocha"
   avatar           : "perfil.jpg"
-  bio              : "MA student of Applied Economics at UFPB"
+  bio              : "Mestrando em Economia Aplicada, UFPB - Brasil"
   location         : "João Pesssoa, PB"
   employer         :
   pubmed           : 

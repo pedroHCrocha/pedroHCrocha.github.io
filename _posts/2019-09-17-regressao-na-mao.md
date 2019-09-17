@@ -172,30 +172,24 @@ Em Álgebra Linear, a multiplicação da matriz inversa pela matriz original ret
 ## Usando dados 
 Agora que o $\hat\beta$ está isolado em um dos membros da equação, pode usar nossos dados para encontrar os estimadores. Começando pelo produto dentro dos parênteses, $(X^TX)^{-1}$:
 
-```{r form1, echo=TRUE, include=TRUE}
-# Matriz X
-X
+```r
 # Para encontrar o valor de X transposto:
 X_t <- t(X)
-X_t
+
 # A multiplicação de matrizes no R é dada pelo operador %*% :
 X_tX <- X_t %*% X
-X_tX
+
 # Para encontrar a matriz Inversa, usa-se o comando solve()
 X_tX_inversa <- solve(X_tX)
-X_tX_inversa
-# Vetor y
-y
+
 # Multiplicação da matriz Transposta com o vetor y
 X_ty <- X_t%*%y
-X_ty
 ```
 
 Após todos esses cálculos, chegamos aos valores dos estimadores $\hat\beta$:
 
-```{r form2, echo=TRUE, include=TRUE}
+```r
 beta <- X_tX_inversa%*%X_ty
-beta
 ```
 # Resultados
 Depois de todos os cálculos realizados, encontramos os valores do estimadores $\hat\beta$ que minimizam a soma do quadrados dos resíduos. Para verificar essa propriedades dos estimadores MQO, devemos primeiro obter os valores das estimativas de y, ou seja, os valores de **ŷ**.
@@ -207,14 +201,14 @@ Podemos transformar essa equação na forma algébrica. O exemplo abaixo mostra 
 
 \begin{equation}ŷ_1 = x_{11}\hat\beta_1 + x_{12}\hat\beta_2 + x_{13}\hat\beta_3 + x_{14}\hat\beta_4 + x_{15}\hat\beta_5\end{equation}
 
-```{r form3, echo=TRUE, include=TRUE}
+```r
+# Valor de y estimado
 ŷ <- X%*%beta
-ŷ
 ```
 Os resíduos são obtidos por meio da subtração dos valores observados de *y* e os valores estimados *ŷ*. O valor teórico da soma desses resíduos é 0 e o valor da soma dos quadrados dos resíduos é o mínimo (possível).
-```{r form4, echo=TRUE, include=TRUE}
+``` 
+# Resíduos das estimativas
 residuos <- y - ŷ
-residuos
 
 # Soma dos resíduos
 sum(residuos)
@@ -237,23 +231,23 @@ Sabemos, previamente, que $y = X\hat\beta + e$. Substituindo nas equações norm
 
 Mas o que isso significa esse resultado? Significa que cada variável independente $x_{k}$ da matriz X não tem correlação amostral com os resíduos. Conferindo esse resultado com nossos dados:
 
-```{r form5, echo=TRUE, include=TRUE}
+```r
 round(X_t%*%residuos, 4)
 ```
 
 Outra propriedade do estimadores MQO é que **o hiperplano da regressão passa sobre a média dos valores observados ($\overline{X}$ e $\overline{y}$)**. Isso deriva do fato de que a média amostral dos resíduos é igual a 0, isto é, $\overline{e} = 0$. Uma implicação direta desse fato é que $\overline{y} = \overline{x}\hat\beta$. O leitor é convidado mostra isso.
 
 Podemos verificar usando os dados:
-```{r form6, echo=TRUE, include=TRUE}
-mean(y) # Média de y
-mean(X) # Média de X
-mean(residuos) # Média dos resíduos
-mean(ŷ) # Média das estimativas
-colMeans(X)%*%beta # Produto das médias de cada uma das colunas de X pelos estimadores
+```r
+mean(y)             # Média de y
+mean(X)             # Média de X
+mean(residuos)      # Média dos resíduos
+mean(ŷ)             # Média das estimativas
+colMeans(X)%*%beta  # Produto das médias de cada uma das colunas de X pelos estimadores
 ```
 
 Outra propriedade é de que a média dos valores previstos $\overline{ŷ}$ é igual aos valores observados de $\overline{y}$, ou seja, $\overline{ŷ} = \overline{y}$. Conferindo o resultado:
-```{r form7, echo=TRUE, include=TRUE}
+```r
 mean(y) - mean(ŷ) 
 ```
 

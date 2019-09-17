@@ -46,13 +46,9 @@ Representando essa equação na forma matricial, temos:
 O objetivo do modelo de *Mínimos Quadrados* é encontrar os estimadores $\hat\beta$ que minimizem o valor da soma do resíduos.
 **Opa!** O resultado teórico do modelo pressupõe que a soma dos resíduos seja igual à 0. Isso significa que:
 
-\begin{equation}
-e = y - \hat{y} = y - X\hat\beta = 0
-\end{equation}
+\begin{equation}e = y - \hat{y} = y - X\hat\beta = 0\end{equation}
 
-\begin{equation}
-{{\sum}}_{i=1}^{n}{e_{i}} = {{\sum}}_{i=1}^{n}{(y_i-\hat{y}_i)}
-\end{equation}
+\begin{equation}{{\sum}}_{i=1}^{n}{e_{i}} = {{\sum}}_{i=1}^{n}{(y_i-\hat{y}_i)}\end{equation}
 
  Desse modo, o modelo MQO atribui um maior peso às instâncias mais distantes do resultado verdadeiro. Ele faz isso considerando o **soma do quadrado dos resíduos (SQR)**. Então, reformulando: *O objetivo do modelo de Mínimos Quadrados é encontrar os estimadores beta que minimizem o valor da soma do quadrado resíduos.* Podemos encontrar a equação que descreve a SQR. 
 O vetor de resíduos *e* é dado por:

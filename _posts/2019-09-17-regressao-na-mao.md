@@ -27,13 +27,17 @@ y <- matrix(rnorm(10,mean=0,sd=1), ncol=1, nrow = 10)
 Caso o mundo fosse plenamente determinístico e tivéssemos pleno conhecimento das relações causais entre variáveis de qualquer natureza, poderiámos exprimir a relação entre X e y no formato do qual a variável y é uma função das variáveis do conjunto X:
 
 \begin{equation}
+
 y = f(X)
+
 \end{equation}
 
 No entanto, não temos essa capacidade e, assim, devemos nos pautar em estimativas para extrair significado dessas relações. Como estimativas não são exatas, por natureza, elas adicionam um termo de resíduo. Então, a estimativa **ŷ** de **y** considera o resíduo.
 
 \begin{equation}
+
 e = y - \hat{y}  
+
 \end{equation}
 
 Note que, no contexto matricial, o resíduo **e** é um vetor-coluna com dimensões *10 x 1*. É importante distinguir resíduo $\epsilon$ e erro (e). O erro refere-se a diferença entre os valores populacionais, que não observamos, e os valores estimados. Resíduo, por sua vez, é a diferença entre o valor estimado e o valor observado. 
@@ -41,13 +45,17 @@ Note que, no contexto matricial, o resíduo **e** é um vetor-coluna com dimens�
 Se a relação entre X e y for linear, então o modelo MQO permite que se encontre uma combinação linear de estimadores que permite produzir valores de ŷ:
 
 \begin{equation}
+
 y_i = \hat{\alpha} + \hat\beta_1 X_1 + \hat\beta_2 X_2 + \hat\beta_3 X_3 + \hat\beta_4 X_4 + \hat\beta_5 X_5 + e_i
+
 \end{equation}
 
 Representando essa equação na forma matricial, temos:
 
 \begin{equation}
+
 y = X\hat\beta + e_i
+
 \end{equation}
 
 ## Encontrandos os estimadores MQO

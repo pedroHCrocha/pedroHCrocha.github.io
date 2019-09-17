@@ -1,7 +1,6 @@
 ---
 title: "Fazendo uma regressão Linear na 'mão' usando R"
-date: 2019-04-11
-permalink: /posts/2019/09/blog-post-5/
+date: 2019-09-17
 tags:
   - Estatística
   - R

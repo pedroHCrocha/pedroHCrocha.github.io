@@ -1,10 +1,10 @@
 ---
-title: "Fazendo regressão na mão"
-author: "Pedro Henrique"
-date: "03/09/2019"
-output:
-  html_document: default
-  pdf_document: default
+title: "Fazendo uma regressão Linear na 'mão' usando R"
+date: 2019-04-11
+permalink: /posts/2019/09/blog-post-5/
+tags:
+  - Estatística
+  - R
 ---
 
 # Etapas iniciais

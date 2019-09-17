@@ -61,9 +61,7 @@ Tomando a matriz transposta do vetor-coluna de *resíduo*, obtemos um vetor com 
 
 O produto desses dois vetores resulta em:
 
-\begin{equation}
-e^T*e = e_1*e_1 + e_2*e_2 + ... + e_10*e_10
-\end{equation}
+\begin{equation}e^T * e = e_1 * e_1 + e_2 * e_2 + ... + e_10 * e_10\end{equation}
 
 Note que podemos reescrever a equação acima:
 

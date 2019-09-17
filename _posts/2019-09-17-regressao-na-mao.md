@@ -61,7 +61,9 @@ Tomando a matriz transposta do vetor-coluna de *resíduo*, obtemos um vetor com 
 
 O produto desses dois vetores resulta em:
 
-\begin{equation}e^T*e = e_1*e_1 + e_2*e_2 + ... + e_{10}*e_{10}\end{equation}
+\begin{equation}
+e^T*e = e_1*e_1 + e_2*e_2 + ... + e_10*e_10
+\end{equation}
 
 Note que podemos reescrever a equação acima:
 
@@ -81,7 +83,6 @@ X= \left[\begin{matrix}x_{11}&x_{12}\\x_{21}&x_{22}\end{matrix}\right]
 Primeiro, resolve a parte que que corresponde sem a transposta.
 
 \begin{equation}
-
 y - X\hat\beta = \left[\begin{array}{rr}y_{1} \\ y_{2}\\\end{array}\right] -
   \left[\begin{array}{rr}x_{11} & x_{12}\\x_{21} & x_{22} \end{array}\right] *
   \left[\begin{array}{rr}\hat\beta_{1} \\ \hat\beta_{2}\\\end{array}\right]= \left[\begin{array}{rr}y_{1} \\ y_{2}\\\end{array}\right] -\left[\begin{array}{rr}\hat\beta_{1}x_{11} +\hat\beta_{2}x_{12}\\\hat\beta_{1}x_{21} +\hat\beta_{2}x_{22} \end{array}\right] =\left[\begin{array}{rr}
@@ -125,9 +126,7 @@ Reorganizando a equação:
 
 Note que a segunda distribuição dos elementos gerará um resultado semelhante, apenas mudando os índices. É aconselhável ao leitor (caso seja de interesse) que tente expandir essa expressão algébrica em todos os seu fatores. Para retornar a forma matricial, precisamos analisar elemento por elemento. Começemos pelo mais simples:
 
-\begin{equation}
-y'_1 * y_1 + y'_2 * y_2 = y^T * y
-\end{equation}
+\begin{equation}y'_1 * y_1 + y'_2 * y_2 = y^T * y\end{equation}
 
 Vale ressaltar que as matrizes já foram apresentadas, assim, para facilitar a exposição das fórmulas, foram utilizadas apenas as siglas. A próxima expressão é:
 
@@ -137,54 +136,38 @@ Vale ressaltar que as matrizes já foram apresentadas, assim, para facilitar a e
 
 Em seguida, temos:
 
-\begin{equation}
-y'_1 * (\hat\beta_{1}x_{11} +\hat\beta_{2}x_{12}) + y'_2 * (\hat\beta'_{1}x_{21} +\hat\beta'_{2}x_{22}) = y^T\hat\beta X
-\end{equation}
+\begin{equation}y'_1 * (\hat\beta_{1}x_{11} +\hat\beta_{2}x_{12}) + y'_2 * (\hat\beta'_{1}x_{21} +\hat\beta'_{2}x_{22}) = y^T\hat\beta X\end{equation}
 
 A última expressão é dado por:
 
-\begin{equation}
-\hat\beta'_{1}x'_{11}x_{11}\hat\beta_{1} + [...] + \hat\beta'_{2}x'_{22}x_{22}\hat\beta_{2} = \hat\beta'X'X\hat\beta
-\end{equation}
+\begin{equation}\hat\beta'_{1}x'_{11}x_{11}\hat\beta_{1} + [...] + \hat\beta'_{2}x'_{22}x_{22}\hat\beta_{2} = \hat\beta'X'X\hat\beta\end{equation}
 
 ### Parâmetros na forma matricial
 Agora, dado que o passo-a-passo foi feito, podemos juntar todas as expressões para encontrar, finalmente, o produto entre os termos de resíduos:
 
-\begin{equation}
-e^Te = y^Ty - \hat\beta^TX^Ty -y^T\hat\beta X + \hat\beta^TX^TX\hat\beta
-\end{equation}
+\begin{equation}e^Te = y^Ty - \hat\beta^TX^Ty -y^T\hat\beta X + \hat\beta^TX^TX\hat\beta\end{equation}
 
 Se os passos foram realizados cuidadosamente, é possível notar que os dois termos do meio são idênticos. Assim, podemos reorganizar novamente a equação:
 
-\begin{equation}
-e^Te = y^Ty - 2\hat\beta^TX^Ty + \hat\beta^TX^TX\hat\beta
-\end{equation}
+\begin{equation}e^Te = y^Ty - 2\hat\beta^TX^Ty + \hat\beta^TX^TX\hat\beta\end{equation}
 
 Para encontrar os estimadores $\hat\beta$ que minimizam a SQR, devemos derivar a equação acima em relação à $\hat\beta$ e igualar a 0. As regras de derivação também se aplicam para matrizes (na verdade, é um somatório), no entanto, é entendível que a notação matricial dificulte a vizualização de como realizar essas derivadas.*
 
-\begin{equation}
-\frac{\partial e^Te}{\partial \hat\beta} = -2X^Ty + 2X^TX\hat\beta = 0
-\end{equation}
+\begin{equation}\frac{\partial e^Te}{\partial \hat\beta} = -2X^Ty + 2X^TX\hat\beta = 0\end{equation}
 
 O resultado dessa derivada nos retorna  as **equações normais**:
 
-\begin{equation}
-X^TX\hat\beta = X^Ty
-\end{equation}
+\begin{equation}X^TX\hat\beta = X^Ty\end{equation}
 
 Note que o produto das matrizes $X^TX$ sempre retornará uma matriz quadrada. Relembrando nosso exemplo, a matriz $X$ tem dimensões *10 x 5* e a $X^T$ tem dimensões *5 x 10*, logo, o produto entre elas gerará uma matriz com dimensões *10 x 10*. Isso é importante pois teremos que encontrar a **matriz Inversa** dela, e só é possível encontrar a matriz inversa em matrizes quadradas (de mesma dimensão). $X^TX$ também é uma matriz simétrica, isto é, $X^T = X$.
 
 Usando a já mencionada matriz inversa, podemos multiplicar \( (X^TX)^{-1}\) em ambos os lados:
 
-\begin{equation}
-(X^TX)^{-1}(X^TX)\hat\beta = (X^TX)^{-1}X^Ty
-\end{equation}
+\begin{equation}(X^TX)^{-1}(X^TX)\hat\beta = (X^TX)^{-1}X^Ty\end{equation}
 
 Em Álgebra Linear, a multiplicação da matriz inversa pela matriz original retorna a **matriz Identidade (I)** que, por sua vez, é semelhante a multiplicar por 1. Desse modo, chegamos ao resultado final:
 
-\begin{equation}
-\hat\beta = (X^TX)^{-1}X^Ty
-\end{equation}
+\begin{equation}\hat\beta = (X^TX)^{-1}X^Ty\end{equation}
 
 ## Usando dados 
 Agora que o $\hat\beta$ está isolado em um dos membros da equação, pode usar nossos dados para encontrar os estimadores. Começando pelo produto dentro dos parênteses, $(X^TX)^{-1}$:
@@ -218,15 +201,11 @@ beta
 Depois de todos os cálculos realizados, encontramos os valores do estimadores $\hat\beta$ que minimizam a soma do quadrados dos resíduos. Para verificar essa propriedades dos estimadores MQO, devemos primeiro obter os valores das estimativas de y, ou seja, os valores de **ŷ**.
 Para encontrar esses valores, basta recuperar uma das equações já apresentadas:
 
-\begin{equation}
-ŷ = X\hat\beta
-\end{equation}
+\begin{equation}ŷ = X\hat\beta\end{equation}
 
 Podemos transformar essa equação na forma algébrica. O exemplo abaixo mostra a equação usada para encontrar o valor de $ŷ_1$. Note que qualquer valor $y_i$* será encontrado usando a mesma equação, mudando apenas o índice dos valores de $X_{i,k}$.
 
-\begin{equation}
-ŷ_1 = x_{11}\hat\beta_1 + x_{12}\hat\beta_2 + x_{13}\hat\beta_3 + x_{14}\hat\beta_4 + x_{15}\hat\beta_5
-\end{equation}
+\begin{equation}ŷ_1 = x_{11}\hat\beta_1 + x_{12}\hat\beta_2 + x_{13}\hat\beta_3 + x_{14}\hat\beta_4 + x_{15}\hat\beta_5\end{equation}
 
 ```{r form3, echo=TRUE, include=TRUE}
 ŷ <- X%*%beta
@@ -248,23 +227,13 @@ format((sum(y - ŷ)^2), scientific = F)
 Até o momento, a única hipótese que fizemos foi a de que a soma dos resíduos é igual à 0. Dada essa hipótese, fomos capazes de checar a principal propriedade dos estimadores MQO: os estimadores $\hat\beta$ minimizam a SQR. 
 No entanto, existem outras propriedades. Para demonstrá-las, começamos relembrando as *equações normais*:
 
-\begin{equation}
-(X^TX)\hat\beta = X^Ty
-\end{equation}
+\begin{equation}(X^TX)\hat\beta = X^Ty\end{equation}
 
 Sabemos, previamente, que $y = X\hat\beta + e$. Substituindo nas equações normais, teremos que:
-\begin{equation}
-(X^TX)\hat\beta = X^T(X\hat\beta + e)
-\end{equation}
-\begin{equation}
-(X^TX)\hat\beta = (X^TX)\hat\beta + X^Te
-\end{equation}
-\begin{equation}
-(X^TX)\hat\beta - (X^TX)\hat\beta  = X^Te
-\end{equation}
-\begin{equation}
-X^Te = 0
-\end{equation}
+\begin{equation}(X^TX)\hat\beta = X^T(X\hat\beta + e)\end{equation}
+\begin{equation}(X^TX)\hat\beta = (X^TX)\hat\beta + X^Te\end{equation}
+\begin{equation}(X^TX)\hat\beta - (X^TX)\hat\beta  = X^Te\end{equation}
+\begin{equation}X^Te = 0\end{equation}
 
 Mas o que isso significa esse resultado? Significa que cada variável independente $x_{k}$ da matriz X não tem correlação amostral com os resíduos. Conferindo esse resultado com nossos dados:
 

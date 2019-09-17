@@ -46,34 +46,26 @@ Representando essa equação na forma matricial, temos:
 O objetivo do modelo de *Mínimos Quadrados* é encontrar os estimadores $\hat\beta$ que minimizem o valor da soma do resíduos.
 **Opa!** O resultado teórico do modelo pressupõe que a soma dos resíduos seja igual à 0. Isso significa que:
 
-\begin{equation}e = y - \hat{y} = y - X\hat\beta = 0\end{equation}
+\begin{equation} e = y - \hat{y} = y - X\hat\beta = 0 \end{equation}
 
-\begin{equation}{{\sum}}_{i=1}^{n}{e_{i}} = {{\sum}}_{i=1}^{n}{(y_i-\hat{y}_i)}\end{equation}
+\begin{equation} {{\sum}}_{i=1}^{n}{e_{i}} = {{\sum}}_{i=1}^{n}{(y_i-\hat{y}_i)} \end{equation}
 
  Desse modo, o modelo MQO atribui um maior peso às instâncias mais distantes do resultado verdadeiro. Ele faz isso considerando o **soma do quadrado dos resíduos (SQR)**. Então, reformulando: *O objetivo do modelo de Mínimos Quadrados é encontrar os estimadores beta que minimizem o valor da soma do quadrado resíduos.* Podemos encontrar a equação que descreve a SQR. 
 O vetor de resíduos *e* é dado por:
 
-\begin{equation}
-e = y - X\hat\beta
-\end{equation}
+\begin{equation}e = y - X\hat\beta\end{equation}
 
 Tomando a matriz transposta do vetor-coluna de *resíduo*, obtemos um vetor com dimensão (1x10)
 
-\begin{equation}
-e^T = (y - X\hat\beta)^T
-\end{equation}
+\begin{equation}e^T = (y - X\hat\beta)^T\end{equation}
 
 O produto desses dois vetores resulta em:
 
-\begin{equation}
-e^T*e = e_1*e_1 + e_2*e_2 + ... + e_{10}*e_{10}
-\end{equation}
+\begin{equation}e^T*e = e_1*e_1 + e_2*e_2 + ... + e_{10}*e_{10}\end{equation}
 
 Note que podemos reescrever a equação acima:
 
-\begin{equation}
-e^T* e = (y - X\hat\beta)^T*(y-X\hat\beta)
-\end{equation}
+\begin{equation}e^T* e = (y - X\hat\beta)^T*(y-X\hat\beta)\end{equation}
 
 Geralmente, é neste passo que os produtos vetoriais ficam mais complicados. Apesar de que o exemplo inicial é fácil de tratar numericamente (produto de matrizes, transposta, etc.), fazer a transformação acima não é tão trivial.Por isso, partiremos para a parte algébrica.
 

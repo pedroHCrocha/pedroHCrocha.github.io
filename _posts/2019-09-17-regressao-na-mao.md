@@ -26,11 +26,7 @@ y <- matrix(rnorm(10,mean=0,sd=1), ncol=1, nrow = 10)
 
 Caso o mundo fosse plenamente determinístico e tivéssemos pleno conhecimento das relações causais entre variáveis de qualquer natureza, poderiámos exprimir a relação entre X e y no formato do qual a variável y é uma função das variáveis do conjunto X:
 
-\begin{equation}
-
-y = f(X)
-
-\end{equation}
+\begin{equation}y = f(X)\end{equation}
 
 No entanto, não temos essa capacidade e, assim, devemos nos pautar em estimativas para extrair significado dessas relações. Como estimativas não são exatas, por natureza, elas adicionam um termo de resíduo. Então, a estimativa **ŷ** de **y** considera o resíduo.
 

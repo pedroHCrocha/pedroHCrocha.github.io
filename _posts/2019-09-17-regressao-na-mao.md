@@ -78,7 +78,7 @@ e^T = (y - X\hat\beta)^T
 O produto desses dois vetores resulta em:
 
 \begin{equation}
-e^T*e =[e_1*e_1 + e_2*e_2 + ... + e_{10}*e_{10}]
+e^T*e = e_1*e_1 + e_2*e_2 + ... + e_{10}*e_{10}
 \end{equation}
 
 Note que podemos reescrever a equação acima:

@@ -96,6 +96,10 @@ Vale ressaltar que as matrizes já foram apresentadas, assim, para facilitar a e
 (\hat\beta^{'}_{1}x'_{11} +\hat\beta^{'}_{2}x'_{12}) * y_1 + (\hat\beta{'}_{1}x'_{21} +\hat\beta^{'}_{2}x'_{22}) * y_2 = \hat\beta^TX^Ty
 \end{equation}
 
+\begin{equation}
+[y_1 - \hat\beta^{'}_{1}x_{11} -\hat\beta_{2}x_{12}\ ,y_2-\hat\beta_{1}x_{21} -\hat\beta_{2}x_{22}] * \left[\begin{array}{rr} y_1 - \hat\beta_{1}x_{11} -\hat\beta_{2}x_{12}\\ y_2-\hat\beta_{1}x_{21} -\hat\beta_{2}x_{22}\end{array}\right]
+\end{equation}
+
 Em seguida, temos:
 
 \begin{equation}

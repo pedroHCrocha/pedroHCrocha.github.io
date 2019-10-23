@@ -71,18 +71,7 @@ Geralmente, é neste passo que os produtos vetoriais ficam mais complicados. Ape
 O exemplo que será apresentado valerá apenas para a demonstração da equação acima. Depois, voltaremos às matrizes originais. Primeiro, resolve a parte que que corresponde sem a transposta.
 
 \begin{equation}
-X= \left[\begin{matrix}x_{11}&x_{12}\\x_{21}&x_{22}\end{matrix}\right] \\
-y = \left[\begin{array}{rr}y_{1} \\ y_{2}\\\end{array}\right] \\
-\hat\beta = \left[\begin{array}{rr}\hat\beta_{1} \\ \hat\beta_{2}\\\end{array}\right]
-\end{equation}
-
-\begin{equation}
-y - X\hat\beta = \left[\begin{array}{rr}y_{1} \\ y_{2}\\\end{array}\right] -
-  \left[\begin{array}{rr}x_{11} & x_{12}\\x_{21} & x_{22} \end{array}\right] *
-  \left[\begin{array}{rr}\hat\beta_{1} \\ \hat\beta_{2}\\\end{array}\right]= \left[\begin{array}{rr}y_{1} \\ y_{2}\\\end{array}\right] -\left[\begin{array}{rr}\hat\beta_{1}x_{11} +\hat\beta_{2}x_{12}\\\hat\beta_{1}x_{21} +\hat\beta_{2}x_{22} \end{array}\right] =\left[\begin{array}{rr}
-         y_1 - \hat\beta_{1}x_{11} -\hat\beta_{2}x_{12}\\
-         y_2-\hat\beta_{1}x_{21} -\hat\beta_{2}x_{22} 
-         \end{array}\right]
+(y - X\hat\beta) = [...] = [y_1 - \hat\beta_{1}x_{11} -\hat\beta_{2}x_{21}\ ,y_2-\hat\beta_{1}x_{11}-\hat\beta_{2}x_{22}] 
 \end{equation}
 
 Para obter a transposta, basta trocar a ordem da linhas pelas colunas:
@@ -97,28 +86,7 @@ Logo, o produto entre os dois é:
 [y_1 - \hat\beta_{1}x_{11} -\hat\beta_{2}x_{12}\ ,y_2-\hat\beta_{1}x_{21} -\hat\beta_{2}x_{22}] * \left[\begin{array}{rr} y_1 - \hat\beta_{1}x_{11} -\hat\beta_{2}x_{12}\\ y_2-\hat\beta_{1}x_{21} -\hat\beta_{2}x_{22}\end{array}\right]
 \end{equation}
 
-Para evitar dois processos idênticos, faremos apenas uma distribuição do produto dos vetores. Também denotaremos os elementos que vieram da matriz transposta por aspas simples $`'`$. Então, começamos por:
-
-\begin{equation}
-= (y'_1 - \hat\beta'_{1}x'_{11} -\hat\beta'_{2}x'_{12})*(y_1 - \hat\beta_{1}x_{11} -\hat\beta_{2}x_{12}) +
-  (y'_2-\hat\beta'_{1}x'_{21} -\hat\beta'_{2}x'_{22})*(y_2-\hat\beta_{1}x_{21} -\hat\beta_{2}x_{22} )
-\end{equation}
-
-Resolvendo apenas a primeira distribuição, temos:
-
-\begin{equation}
-= y'_1 * y_1 - y'_1 * (\hat\beta_{1}x_{11} +\hat\beta_{2}x_{12}) 
--\hat\beta'_{1}x'_{11}* y_1 + \hat\beta'_{1}x'_{11} * \hat\beta_{1}x_{11} +  \hat\beta'_{1}x'_{11} *\hat\beta_{2}x_{12} 
--\hat\beta'_{2}x'_{12} * y_1 + \hat\beta'_{2}x'_{12}  * \hat\beta_{1}x_{11} +  \hat\beta'_{2}x'_{12} *\hat\beta_{2}x_{12} 
-\end{equation}
-
-Reorganizando a equação:
-
-\begin{equation}
-= y'_1 * y_1 -(\hat\beta'_{1}x'_{11} +\hat\beta'_{2}x'_{12}) * y_1 -  y'_1 * (\hat\beta_{1}x_{11} +\hat\beta_{2}x_{12}) + \hat\beta'_{1}x'_{11}* \hat\beta_{1}x_{11} + [...] + \hat\beta'_{2}x'_{12} *\hat\beta_{2}x_{12} 
-\end{equation}
-
-Note que a segunda distribuição dos elementos gerará um resultado semelhante, apenas mudando os índices. É aconselhável ao leitor (caso seja de interesse) que tente expandir essa expressão algébrica em todos os seu fatores. Para retornar a forma matricial, precisamos analisar elemento por elemento. Começemos pelo mais simples:
+Para evitar dois processos idênticos, faremos apenas uma distribuição do produto dos vetores. Também denotaremos os elementos que vieram da matriz transposta por aspas simples $`'`$. É aconselhável ao leitor (caso seja de interesse) que tente expandir essa expressão algébrica em todos os seu fatores. Para retornar a forma matricial, precisamos analisar elemento por elemento. Começemos pelo mais simples:
 
 \begin{equation}y'_1 * y_1 + y'_2 * y_2 = y^T * y\end{equation}
 
@@ -130,11 +98,13 @@ Vale ressaltar que as matrizes já foram apresentadas, assim, para facilitar a e
 
 Em seguida, temos:
 
-\begin{equation}y'_1 * (\hat\beta_{1}x_{11} +\hat\beta_{2}x_{12}) + y'_2 * (\hat\beta'_{1}x_{21} +\hat\beta'_{2}x_{22}) = y^T\hat\beta X\end{equation}
+\begin{equation}
+y'_1 * (\hat\beta_{1}x_{11} +\hat\beta_{2}x_{12}) + y'_2 * (\hat\beta'_{1}x_{21} +\hat\beta'_{2}x_{22}) = y^T\hat\beta X\end{equation}
 
 A última expressão é dado por:
 
-\begin{equation}\hat\beta'_{1}x'_{11}x_{11}\hat\beta_{1} + [...] + \hat\beta'_{2}x'_{22}x_{22}\hat\beta_{2} = \hat\beta'X'X\hat\beta\end{equation}
+\begin{equation}
+\hat\beta'_{1}x'_{11}x_{11}\hat\beta_{1} + [...] + \hat\beta'_{2}x'_{22}x_{22}\hat\beta_{2} = \hat\beta'X'X\hat\beta\end{equation}
 
 ### Parâmetros na forma matricial
 Agora, dado que o passo-a-passo foi feito, podemos juntar todas as expressões para encontrar, finalmente, o produto entre os termos de resíduos:

@@ -93,7 +93,7 @@ Para evitar dois processos idênticos, faremos apenas uma distribuição do prod
 Vale ressaltar que as matrizes já foram apresentadas, assim, para facilitar a exposição das fórmulas, foram utilizadas apenas as siglas. A próxima expressão é:
 
 \begin{equation}
-(\hat\beta '_{1}x'_{11} +\hat\beta '_{2}x'_{12}) * y_1 + (\hat\beta '_{1}x'_{21} +\hat\beta '_{2}x'_{22}) * y_2 = \hat\beta^TX^Ty
+(\hat\beta^{'}_{1}x'_{11} +\hat\beta^{'}_{2}x'_{12}) * y_1 + (\hat\beta{'}_{1}x'_{21} +\hat\beta^{'}_{2}x'_{22}) * y_2 = \hat\beta^TX^Ty
 \end{equation}
 
 Em seguida, temos:

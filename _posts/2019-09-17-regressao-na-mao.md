@@ -93,7 +93,7 @@ Para evitar dois processos idênticos, faremos apenas uma distribuição do prod
 Vale ressaltar que as matrizes já foram apresentadas, assim, para facilitar a exposição das fórmulas, foram utilizadas apenas as siglas. A próxima expressão é:
 
 \begin{equation}
-\beta^{T}_{1}*x^{'}_{11}
+\beta^{T}_{1}*x^{T}_{11}
 \end{equation}
 
 

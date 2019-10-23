@@ -48,8 +48,6 @@ O objetivo do modelo de *Mínimos Quadrados* é encontrar os estimadores $\hat\b
 
 \begin{equation} e = y - \hat{y} = y - X\hat\beta = 0 \end{equation}
 
-\begin{equation} {{\sum}}_{i=1}^{n}{e_{i}} = {{\sum}}_{i=1}^{n}{(y_i-\hat{y}_i)} \end{equation}
-
  Desse modo, o modelo MQO atribui um maior peso às instâncias mais distantes do resultado verdadeiro. Ele faz isso considerando o **soma do quadrado dos resíduos (SQR)**. Então, reformulando: *O objetivo do modelo de Mínimos Quadrados é encontrar os estimadores beta que minimizem o valor da soma do quadrado resíduos.* Podemos encontrar a equação que descreve a SQR. 
 O vetor de resíduos *e* é dado por:
 
@@ -72,9 +70,8 @@ Geralmente, é neste passo que os produtos vetoriais ficam mais complicados. Ape
 ### Derivação álgebrica dos cálculos
 O exemplo que será apresentado valerá apenas para a demonstração da equação acima. Depois, voltaremos às matrizes originais.
 
-\begin{equation}
-X= \left[\begin{matrix}x_{11}&x_{12}\\x_{21}&x_{22}\end{matrix}\right] 
-    y = \left[\begin{array}{rr}y_{1} \\ y_{2}\\\end{array}\right]
+\begin{equation}X= \left[\begin{matrix}x_{11}&x_{12}\\x_{21}&x_{22}\end{matrix}\right] \\
+y = \left[\begin{array}{rr}y_{1} \\ y_{2}\\\end{array}\right] \\
     \hat\beta = \left[\begin{array}{rr}\hat\beta_{1} \\ \hat\beta_{2}\\\end{array}\right]
 \end{equation}
   

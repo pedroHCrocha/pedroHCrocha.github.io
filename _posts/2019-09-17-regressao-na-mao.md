@@ -187,7 +187,7 @@ Podemos usar um exemplo que já vem com o R. A base *mtcars* possui informaçõe
 head(mtcars)
 ```
 
-Vamos estimar uma relação quilômetros por litro e a potência do carro. Espera-se uma relação negativa, isto é, carros mais potentes tem fazem menos quilômetros por litro. Para ver isso, fazemos:
+Vamos estimar uma relação quilômetros por litro e a potência do carro. Espera-se uma relação negativa, isto é, carros mais potentes fazem menos quilômetros por litro. Para ver isso, fazemos:
 ```
 modelo <- lm(mpg ~ hp, data = mtcars)
 summary(modelo)
@@ -212,3 +212,4 @@ summary(modelo)
 # F-statistic: 45.5 on 1 and 30 DF,  p-value: 1.79e-07
 
 ```
+Chutamos corretamente! Deu sinal negativo. Podíamos falar mais sobre os resultados, mas haverá outros posts que irão tratar da parte dos resultados com mais detalhes. Até lá, uma boa jornada ao mundo do conhecimento!

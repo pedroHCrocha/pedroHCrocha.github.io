@@ -71,6 +71,12 @@ Geralmente, é neste passo que os produtos vetoriais ficam mais complicados. Ape
 O exemplo que será apresentado valerá apenas para a demonstração da equação acima. Depois, voltaremos às matrizes originais. Primeiro, resolve a parte que que corresponde sem a transposta.
 
 \begin{equation}
+X= \left[\begin{matrix}x_{11}&x_{12}\\x_{21}&x_{22}\end{matrix}\right] \\
+y = \left[\begin{array}{rr}y_{1} \\ y_{2}\\\end{array}\right] \\
+\hat\beta = \left[\begin{array}{rr}\hat\beta_{1} \\ \hat\beta_{2}\\\end{array}\right]
+\end{equation}
+
+\begin{equation}
 y - X\hat\beta = \left[\begin{array}{rr}y_{1} \\ y_{2}\\\end{array}\right] -
   \left[\begin{array}{rr}x_{11} & x_{12}\\x_{21} & x_{22} \end{array}\right] *
   \left[\begin{array}{rr}\hat\beta_{1} \\ \hat\beta_{2}\\\end{array}\right]= \left[\begin{array}{rr}y_{1} \\ y_{2}\\\end{array}\right] -\left[\begin{array}{rr}\hat\beta_{1}x_{11} +\hat\beta_{2}x_{12}\\\hat\beta_{1}x_{21} +\hat\beta_{2}x_{22} \end{array}\right] =\left[\begin{array}{rr}

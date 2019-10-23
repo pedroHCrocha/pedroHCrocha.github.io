@@ -176,3 +176,39 @@ Outra propriedade é de que a média dos valores previstos $\overline{ŷ}$ é ig
 mean(y) - mean(ŷ) 
 ```
 
+# Regressão Linear na Prática
+Do ponto de vista prático, nunca seguimos todos esses passos quando desejamos realizar uma regressão linear. A importante, até agora, foi mostrar de onde vêm os estimadores do método de Minímos Quadrados e algumas de suas propriedades mais relevantes. Na
+prática, o **R** oferece uma função muito simples, mas muito poderosa, chamada **lm()**, uma abreviação de "linear model".
+A partir dela, podemos ter acesso a diversas estatísticas revelantes do modelo, além do próprio resultado. 
+
+Podemos usar um exemplo que já vem com o R. A base *mtcars* possui informações de vários modelos de carros, como cavalos de potência, quilômetros por litro, etc.
+
+```r
+head(mtcars)
+```
+
+Vamos estimar uma relação quilômetros por litro e a potência do carro. Espera-se uma relação negativa, isto é, carros mais potentes tem fazem menos quilômetros por litro. Para ver isso, fazemos:
+```
+modelo <- lm(mpg ~ hp, data = mtcars)
+summary(modelo)
+```
+```
+# Call:
+#   lm(formula = mpg ~ hp, data = mtcars)
+# 
+# Residuals:
+#   Min     1Q Median     3Q    Max 
+# -5.712 -2.112 -0.885  1.582  8.236 
+# 
+# Coefficients:
+#   Estimate Std. Error t value Pr(>|t|)    
+# (Intercept)  30.0989     1.6339   18.42  < 2e-16 ***
+#  hp           -0.0682     0.0101   -6.74  1.8e-07 ***
+#   ---
+#   Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+# 
+# Residual standard error: 3.86 on 30 degrees of freedom
+# Multiple R-squared:  0.602,	Adjusted R-squared:  0.589 
+# F-statistic: 45.5 on 1 and 30 DF,  p-value: 1.79e-07
+
+```

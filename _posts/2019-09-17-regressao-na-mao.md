@@ -93,11 +93,12 @@ Para evitar dois processos idênticos, faremos apenas uma distribuição do prod
 Vale ressaltar que as matrizes já foram apresentadas, assim, para facilitar a exposição das fórmulas, foram utilizadas apenas as siglas. A próxima expressão é:
 
 \begin{equation}
-(\hat\beta^{T}_{1}x'_{11} +\hat\beta^{T}_{2}x'_{12}) * y_1 + (\hat\beta^{T}_{1}x'_{21} +\hat\beta^{T}_{2}x'_{22}) * y_2 = \hat\beta^TX^Ty
+\beta^{T}_{1}
 \end{equation}
 
+
 \begin{equation}
-[y_1 - \hat\beta^{t}_{1}x_{11} -\hat\beta_{2}x_{12}\ ,y_2-\hat\beta_{1}x_{21} -\hat\beta_{2}x_{22}] * \left[\begin{array}{rr} y_1 - \hat\beta_{1}x_{11} -\hat\beta_{2}x_{12}\\ y_2-\hat\beta_{1}x_{21} -\hat\beta_{2}x_{22}\end{array}\right]
+(\hat\beta^{T}_{1}x'_{11} +\hat\beta^{T}_{2}x'_{12}) * y_1 + (\hat\beta^{T}_{1}x'_{21} +\hat\beta^{T}_{2}x'_{22}) * y_2 = \hat\beta^TX^Ty
 \end{equation}
 
 Em seguida, temos:

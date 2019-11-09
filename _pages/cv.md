@@ -29,8 +29,9 @@ Experiência
 Habilidades
 ======
 * R 
-* Python (pandas, scikit-learn, numpy)
+* Python (pandas,numpy,scikit-learn)
 * Git
 * HTML, CSS, Bootstrap
+* Latex
 * JavaScript (em treinamento)
 

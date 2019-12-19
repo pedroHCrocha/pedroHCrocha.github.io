@@ -64,11 +64,11 @@ Melhor Armador
    
    Pelo gráfico, vemos que a corrida nesse quesito é acirrada. Balbi #6 e Elinho #5 estão quase empatado devido, em grande parte, de jogarem em times com outros jogadores excepcionais (Flamengo e Franca disputaram a final da NBB desta temporada). Jamaal #5, apesar do Botafogo ter alcançado as semi-finais, não joga com um grupo cheio de talentos, como as equipes dos outros concorrentes. 
    
-   ![graphic1](images/armador.png)
+   ![graphic1](../images/armador.png)
 
    Um bom armador é eficiente. Não apenas em relação as suas decisões de passe, mas em todos os aspectos que o rodeiam durante o jogo. Assim, a estatística *Eficiência* é uma boa métrica para avaliar os candidatos. Filtrando o gráfico apenas para os armadores e ala/armadores - 61 jogadores -, os candidatos à premiação encontram-se muito bem colocados. Balbi #6, Jamaal #5 e Elinho #5 ocupam 86º, 80º e 77º percentils, respectivamente, no quesito Eficiência entre os armadores da liga. 
    
-   ![grahpic2](images/armador2.png)
+   ![grahpic2](../images/armador2.png)
    
    Felizmente, as equipes dos armadores se enfretaram nesses playoffs. Podemos ver os resultados gerados por esses duelos.
  Jamaal #5 foi um dos melhores jogadores desses playoffs e as suas médias mostram isso. No entanto, Balbi #6 e o Flamengo não ficaram atrás e conquistaram o título em cima das equipes dos outros concorrentes. Elinho #5 misturou uma série de boas e más atuações. 
@@ -120,19 +120,19 @@ Melhor Pivô
    
    Porém, indiscutivelmente, um pivô deve pegar *rebotes*. Avaliando o número total de rebotes entre os jogadores da LNB nessa temporada, todos os candidatos encontram-se acima do 80º percentil. O percentil mais inferior é o de Lucas Dias #9, no 83º percentil e o máximo é JP Batista #13, que liderou a liga em rebotes. 
    
-   ![graphic3](images/pivo1.png)
+   ![graphic3](../images/pivo1.png)
    
    E, entre os pivôs da Liga, o perfil já se altera. Lucas Dias #13 desce para o 68º percentil, seguido de Cipolini #15, no 75º percentil. Olivinha #16 fica no 84º percentil, enquanto que D.Nunes #24 e Varejão #17 encontram-se no 91º e 93º percentils, respectivamente.
    
-   ![graphic4](images/reb2.png)
+   ![graphic4](../images/reb2.png)
    
    Filtrando para rebote defensivos, JP Batista #13 e D.Nunes #24 estão na liderança entre os candidatos, com aproximadamente 5.5 rebotes defensivos por jogo.
    
-   ![graphic5](images/rd.png)
+   ![graphic5](../images/rd.png)
    
    Nos rebotes ofensivos, JP Batista #13 é o 1º lugar entre os outros concorrentes e 2º na liga, atrás apenas de Toledo #13, da equipe de Pinheiros. 
    
-   ![graphic6](images/ro.png)
+   ![graphic6](../images/ro.png)
    
    É também de se esperar que um pivô projeta o garrafão, sendo, na maioria dos casos, a última linha de defesa de um time. Para isso, *tocos* são uma estatística simples mas que informa bastante sobre posicionamento defensivo, tempo de bola e habilidade defensiva.
    
@@ -186,13 +186,13 @@ Melhor Ala
    
    Entre os jogadores que arremessaram mais que 50 bolas de três durante a temporada, David Jackson #32 lidera absoluto com uma (ridícula) porcentagem de 47% dos três pontos. A maioria dos candidatos, como a restante do grupo selecionado, encontra-se na faixa de 32% e 38%. 
    
-   ![graphic7](images/alas.png)
+   ![graphic7](../images/alas.png)
    
    Outra métrica importante de ser analisada no caso dos alas é a *True Shooting (TS)*, ou, *Verdadeiro Arremesso*. Ela avalia a eficiência de todos tipos de arremessos, seja de 2 pontos, 3 pontos ou lances livres. Do ponto de vista técnico, uma medida alta de True Shooting indica que o jogador escolhe arremessos de alta porcentagem e os converte com frequência, isto é, no linguajar do basquete, não "força" cestas em situações difíceis com marcação apertada.
    
    Filtrando para jogadores com pelo menos 20 jogos na temporada, David Jackson #32 lidera o grupo, mas Marquinhos #11 vem logo em seguida, com 62% de True Shooting.
    
-   ![graphic8](images/alas.png)
+   ![graphic8](../images/alas.png)
    
    Na ausência de estatísticas mais específicas da área defensiva, meu voto para *Melhor Ala do Ano* vai para **David Jackson #32**, pela incrível temporada em termos de eficiência - 2º lugar na Liga-, eficácia em arremesso e contribuição tanto ofensiva quanto defensiva para a equipe de Franca. Tudo isso com 37 anos de idade! O segundo voto vai para **Marquinhos #11**, que teve uma boa temporada regular e uma pós-temporada fantástica.
    

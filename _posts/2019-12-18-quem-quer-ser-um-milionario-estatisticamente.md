@@ -36,3 +36,9 @@ Como as respostas são independentes, então podemos transformar a distribuiçã
 **Proposição 5:** As respostas das pessoas que não sabem a resposta segue uma distribuição Binomial, tal que, p = 0.5:
 \begin{equation}Z \sim Bin((N-n)p, (N-n)(1-p)p) \end{equation}
 
+Somando as proposições 4 e 5, podemos obter a média e a variância da distribuição das respostas de toda a audiência. Desse modo, temos:
+
+**Proposição 6:** As respostas das N pessoas da audiência tem distribuição dada por:
+\begin{equation} A = (Y + Z) \sim (E(Y + Z), Var(Y + Z)) \end{equation}
+
+Onde: $ E(A) = E(Y + Z) = \frac{N+n}{2} $ e Var(A) = Var(Y + Z) = \frac{N-n}{4}

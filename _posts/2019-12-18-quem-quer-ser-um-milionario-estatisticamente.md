@@ -81,5 +81,5 @@ Para avaliar esses cenários, temos a proposição 8:
 **Proposição 8:** O valor esperado e o valor esperado do jogo são dados por:
 
 \begin{equation}
-E(Jogo) = \gamma 
+E(Jogo) = p*\theta_1 + (1-p)*\theta_0
 \end{equation}

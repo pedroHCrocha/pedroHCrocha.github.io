@@ -1,7 +1,6 @@
 ---
 title: "Premiações do Ano- Liga Nacional de Basquete - Temporada 2018/2019"
 date: 2019-06-07
-permalink: /posts/2019/06/blog-post-1/
 tags:
   - basquete
   - analitics

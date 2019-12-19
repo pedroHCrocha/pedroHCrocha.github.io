@@ -16,7 +16,9 @@ As premissas assumidas são:
 
 **2** - *A resposta de de um participante não tem influência sobre a resposta de outro. (Respostas independentes);*
 
-**3** - *Todos os participantes da audiência que sabem a resposta, respondem corretamente. (Respostas equiprováveis).*
+**3** - *Todos os participantes da audiência que sabem a resposta, respondem corretamente. (Respostas equiprováveis);*
+
+**4** - A questão com mais votos é sempre a questão analisada.
 
 A analíse da estratégia 50/50 --> Perguntar à Audiência (ATA) - das duas estratégias, na verdade- será feita através de proposições acerca das suas características. A primeira proposição é:
 
@@ -41,4 +43,11 @@ Somando as proposições 4 e 5, podemos obter a média e a variância da distrib
 **Proposição 6:** As respostas das N pessoas da audiência tem distribuição dada por:
 \begin{equation} A = (Y + Z) \sim (E(Y + Z), Var(Y + Z)) \end{equation}
 
-Onde: $ E(A) = E(Y + Z) = \frac{N+n}{2} $ e Var(A) = Var(Y + Z) = \frac{N-n}{4}
+Onde: $E(A) = E(Y + Z) = \frac{N+n}{2}$ e $Var(A) = Var(Y + Z) = \frac{N-n}{4}$
+
+ O jogador não sabe o número de pessoas na platéia que sabem a resposta. No entanto, através da distribuição das respostas, ele poderá inferir sobre o valor de *n*. Para fazer isso, é preciso inverter a média das respostas da audiência em uma função em respeito a *n*.
+ 
+ **Proposição 7:** A forma funcional que exprime o valor de *n*, dados os valores de *E(A)* e *N*, é dada por:
+ \begin{equation} n = 2E(A) - N \end{equation}
+ 
+ **Exemplo 1:** Suponha que a distribuição de respostas seja igual à: ![Respostas](images/grafs2.png)

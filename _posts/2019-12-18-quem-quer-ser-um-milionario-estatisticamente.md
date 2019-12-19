@@ -51,7 +51,10 @@ Onde: $E(A) = E(Y + Z) = \frac{N+n}{2}$ e $Var(A) = Var(Y + Z) = \frac{N-n}{4}$
  **Proposição 7:** A forma funcional que exprime o valor de *n*, dados os valores de *E(A)* e *N*, é dada por:
  \begin{equation} n = 2E(A) - N \end{equation}
  
- **Exemplo 1:** Suponha que N = 100 e a distribuição de respostas seja igual à: ![Respostas](../images/grafs2.jpg). Então, pela *premissa 4*, temos que $E(A) = 75$. Logo. usando a *proposição 7*, podemos obter o valor de *n*:
+ **Exemplo 1:** Suponha que N = 100 e a distribuição de respostas seja igual à: ![Respostas](../images/grafs2.jpg). 
+ 
+ 
+ Então, pela *premissa 4*, temos que $E(A) = 75$. Logo. usando a *proposição 7*, podemos obter o valor de *n*:
  
  \begin{equation}
  n = 2E(A) - N = 2*75 - 100 = 50
@@ -59,3 +62,10 @@ Onde: $E(A) = E(Y + Z) = \frac{N+n}{2}$ e $Var(A) = Var(Y + Z) = \frac{N-n}{4}$
  
  Logo, se uma das alternativas tiver 75% das respostas, podemos afirmar que 50% da audiência sabe a resposta e responde corretamente.
  
+ **Exemplo 2:** Suponha que N = 100 e ninguém da audiência sabe a resposta. Como podemos confirmar essa hipótese? Podemos confirmar observando a distribuição de respostas: ![Respostas2](../images/grafs3.jpg).
+ 
+  \begin{equation}
+ n = 2E(A) - N = 2*50 - 100 = 0
+ \end{equation}
+ 
+ Assim, se as alternativas apresentarem 50% das respostas, com um desvio-padrão de 5%, então é possível afimar que ninguém da platéia sabe a resposta e todos estão jogando "moeda" em sua respostas.

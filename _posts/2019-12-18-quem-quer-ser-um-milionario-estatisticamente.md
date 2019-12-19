@@ -21,7 +21,7 @@ As premissas assumidas são:
 A analíse da estratégia 50/50 --> Perguntar à Audiência (ATA) - das duas estratégias, na verdade- será feita através de proposições acerca das suas características. A primeira proposição é:
 
 **Proposição 1:** Suponha que tenha *N* pessoas na audiência e $ X = {X_1, ... X_N} $ é o conjunto das respostas de cada um dos participantes. A distribuição de X segue uma distribuição de Bernoulli, onde:
-\begin{equation}X_i \sim Bernoulli{p, (1-p)p} \end{equation}
+\begin{equation}X_i \sim Bernoulli(p, (1-p)p) \end{equation}
 
 **Proposição 2:** Suponha que *n* pessoas na audiência sabem a resposta da pergunta de 1 milhão. Então, existem *N* pessoas na
 audiência, *n* pessoas que sabem a resposta e *N-n* pessoas que não sabem a resposta.
@@ -31,8 +31,8 @@ audiência, *n* pessoas que sabem a resposta e *N-n* pessoas que não sabem a re
 Como as respostas são independentes, então podemos transformar a distribuição de Bernoulli em uma distribuição Binomial. Desse modo, formulamos mais duas proposições:
 
 **Proposição 4:** As respostas das pessoas que sabem a resposta segue uma distribuição Binomial, tal que, p = 1:
-\begin{equation}Y \sim Bernoulli{np, n(1-p)p} \end{equation}
+\begin{equation}Y \sim Bin(np, n(1-p)p) \end{equation}
 
 **Proposição 5:** As respostas das pessoas que não sabem a resposta segue uma distribuição Binomial, tal que, p = 0.5:
-\begin{equation}Z \sim Bernoulli{np, n(1-p)p} \end{equation}
+\begin{equation}Z \sim Bin((N-n)p, (N-n)(1-p)p) \end{equation}
 

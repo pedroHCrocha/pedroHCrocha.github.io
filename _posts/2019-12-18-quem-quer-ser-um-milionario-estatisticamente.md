@@ -54,3 +54,5 @@ Onde: $E(A) = E(Y + Z) = \frac{N+n}{2}$ e $Var(A) = Var(Y + Z) = \frac{N-n}{4}$
  
  $ n = 2E(A) - N = 2*75 - 100 = 50$
  
+ Logo, se uma das alternativas tiver 75% das respostas, podemos afirmar que 50% da audiência sabe a resposta e responde corretamente.
+ 

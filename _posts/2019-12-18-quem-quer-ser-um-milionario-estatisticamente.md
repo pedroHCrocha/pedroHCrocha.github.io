@@ -72,9 +72,9 @@ Onde: $E(A) = E(Y + Z) = \frac{N+n}{2}$ e $Var(A) = Var(Y + Z) = \frac{N-n}{4}$
  
  Para observar qual é a melhor decisão dessa estratégia do ponto de vista monetário, temos que analisar o valor esperado do jogo. Pelas regras definidas no modelo americano do jogo, o jogador tem três cenários na questão de 1 milhão:
  
-1. Se não responder, fica com R\$ 500.000 $(\gamma)$;
-2. Se acertar, ganha R\$ 1.000.000 $(\theta_1)$;
-3. Se errar, ganha R\$ 25.000 $(\theta_0)$.
+1. Se não responder, fica com 500.000 reais $(\gamma)$;
+2. Se acertar, ganha 1.000.000 reais $(\theta_1)$;
+3. Se errar, ganha 25.000 reais $(\theta_0)$.
 
 Para avaliar esses cenários, temos a proposição 8:
 

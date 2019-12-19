@@ -85,7 +85,10 @@ E(Jogo) = p\theta_1 + (1-p)\theta_0
 \end{equation}
 
 \begin{equation}
-E(Jogo) = p(\theta_1 - \gamma) + (1-p)(\theta_0 - gamma)
+E_{relativo}(Jogo) = p(\theta_1 - \gamma) + (1-p)(\theta_0 - \gamma)
 \end{equation}
+
+Podemos demonstrar as relações entre os resultados das proposições 6, 7 e 8 por meio de gráficos: ![Respostas2](../images/grafs4.jpg). 
+
 
 

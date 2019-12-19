@@ -128,7 +128,7 @@ Melhor Pivô
    
    Filtrando para rebote defensivos, JP Batista #13 e D.Nunes #24 estão na liderança entre os candidatos, com aproximadamente 5.5 rebotes defensivos por jogo.
    
-   ![graphic5](../images/rd.png)
+   ![graphic5](../images/rd.jpg)
    
    Nos rebotes ofensivos, JP Batista #13 é o 1º lugar entre os outros concorrentes e 2º na liga, atrás apenas de Toledo #13, da equipe de Pinheiros. 
    

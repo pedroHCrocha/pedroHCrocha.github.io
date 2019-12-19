@@ -83,3 +83,9 @@ Para avaliar esses cenários, temos a proposição 8:
 \begin{equation}
 E(Jogo) = p\theta_1 + (1-p)\theta_0
 \end{equation}
+
+\begin{equation}
+E(Jogo) = p(\theta_1 - \gamma) + (1-p)(\theta_0 - gamma)
+\end{equation}
+
+

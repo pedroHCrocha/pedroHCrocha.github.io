@@ -20,7 +20,8 @@ As premissas assumidas são:
 
 **4** - A questão com mais votos é sempre a questão analisada.
 
-A analíse da estratégia 50/50 --> Perguntar à Audiência (ATA) - das duas estratégias, na verdade- será feita através de proposições acerca das suas características. A primeira proposição é:
+## Estratégia 50/50 --> Perguntar à Audiência (ATA)
+A analíse da estratégia 50/50 --> ATA - das duas estratégias, na verdade- será feita através de proposições acerca das suas características. A primeira proposição é:
 
 **Proposição 1:** Suponha que tenha *N* pessoas na audiência e $ X = {X_1, ... X_N} $ é o conjunto das respostas de cada um dos participantes. A distribuição de X segue uma distribuição de Bernoulli, onde:
 \begin{equation}X_i \sim Bernoulli(p, (1-p)p) \end{equation}

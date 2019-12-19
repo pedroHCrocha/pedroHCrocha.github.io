@@ -69,3 +69,9 @@ Onde: $E(A) = E(Y + Z) = \frac{N+n}{2}$ e $Var(A) = Var(Y + Z) = \frac{N-n}{4}$
  \end{equation}
  
  Assim, se as alternativas apresentarem 50% das respostas, com um desvio-padrão de 5%, então é possível afimar que ninguém da platéia sabe a resposta e todos estão jogando "moeda" em sua respostas.
+ 
+ Para observar qual é a melhor decisão dessa estratégia do ponto de vista monetário, temos que analisar o valor esperado do jogo. Pelas regras definidas no modelo americano do jogo, o jogador tem três cenários na questão de 1 milhão:
+ 
+1. Fica com os R$ 500.000;
+2. Se acertar, ganha R$ 1.000.000
+3. Se errar, ganha R$ 25.000

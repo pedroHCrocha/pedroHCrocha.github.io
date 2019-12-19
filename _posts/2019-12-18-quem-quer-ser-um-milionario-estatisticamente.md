@@ -88,7 +88,20 @@ E(Jogo) = p\theta_1 + (1-p)\theta_0
 E_{relativo}(Jogo) = p(\theta_1 - \gamma) + (1-p)(\theta_0 - \gamma)
 \end{equation}
 
-Podemos demonstrar as relações entre os resultados das proposições 6, 7 e 8 por meio de gráficos: ![Respostas2](../images/grafs4.jpg). 
+Podemos demonstrar as relações entre os resultados das proposições 6, 7 e 8 por meio de gráficos: ![Respostas4](../images/grafs4.png). 
+
+No entanto, se ocorrer o caso no qual a alternativa mais votada não é a alternativa correta. Como avaliar esse cenário? Esse caso viola duas premissas do ensaio: 
+
+1. As pessoas da audiência que sabem a resposta não respondem corretamente, logo, as respostas não são equiprováveis;
+2. Pode haver influência externa nas respostas da audiência (da pessoa ao lado, do jogador, do apresentador, etc.) logo, as respostas nãos serão independentes. 
+
+Supondo que nenhuma dessas violações ocorra, ainda há a chance de que as respostas apresentem um comportamento aleatório desse tipo. Nesse sentido ,é análogo ao problema de se jogar uma moeda não viciada 100 vezes e cair 80 caras (resposta errada). Podemos calculcar esses casos usando a função de distribuição de probabilidade acumulada da Binomial:
+
+
+$$ P(X > x) =  \sum{k = k}{N} {N}\choose{k} \cdot p^kq^{N-k}$$
+
+
+## Estratégia Perguntar à Audiência (ATA) --> 50/50 
 
 
 

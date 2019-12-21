@@ -1,5 +1,5 @@
 ---
-title: "Pedir ajuda à audiência ou pedir 50/50 primeiro? Quem quer ser um milionario... estatisticamente"
+title: "Pedir ajuda à audiência ou pedir 50/50 primeiro? Quem quer ser um milionário... estatisticamente"
 date: 2019-12-18
 tags:
   - estatística

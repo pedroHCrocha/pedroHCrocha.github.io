@@ -98,10 +98,11 @@ No entanto, se ocorrer o caso no qual a alternativa mais votada não é a altern
 Supondo que nenhuma dessas violações ocorra, ainda há a chance de que as respostas apresentem um comportamento aleatório desse tipo. Nesse sentido ,é análogo ao problema de se jogar uma moeda não viciada 100 vezes e cair 80 caras (resposta errada). Podemos calculcar esses casos usando a função de distribuição de probabilidade acumulada da Binomial:
 
 
-$$ P(X > x) =  \sum{k = k}{N} {N}\choose{k} \cdot p^kq^{N-k}$$
+$$ P(X \geq x) =  \sum{k = k}{N}  \frac{N!}{k!(N-k)!} \cdot p^kq^{N-k}$$
+5
+Desse modo, usando o **exemplo 1** como teste, a probabilidade de ter 75 % ou mais votos aleatórios na questão certa é de aproximadamente 0%. Ou seja, podemos afimar que se os participantes da audiência chutam a resposta, é altamente improvável que uma deles tenha 75% dos votos. Assim, os resultados são explicados por outro fator, que é o número de pessoas que sabem a resposta.
 
-
-## Estratégia Perguntar à Audiência (ATA) --> 50/50 
+**Resumo da estratégia:** Essa estratégia é bem simples. Depois de pedir ajuda a audiência, se uma das alternativas tiver 75% dos votos, então o jogador pode inferir, com certo nível de segurança, que 50% da audiência sabe a resposta. Então, qualquer nível acima de 75% dos votos indica que mais da metada da platéia sabe a resposta, e o jogador deve seguir a resposta da maioria. Para níveis abaixo disso, o jogador estará melhor não respondendo.
 
 
 

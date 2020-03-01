@@ -34,6 +34,7 @@ O desafio estava feito: Desenvolver um indicador que utilize apenas os preços m
 
 **3** - *Limitado a uma escala definida*;
 
+# Referências
 Existem alguns indicadores técnicos, tais como IFR e MACD, que são capaz de identificar o poder das forças compradores *(bullish)* e vendedoras *(bearish)* de uma ação. Talvez o indicador técnico que mais se aproxime do indicador que busco criar seja o **[Averate True Range (ATR])**(https://www.investopedia.com/terms/a/atr.asp), ou Verdadeira Amplitude da Variação. 
 
 Em resumo, o ATR é um indicador que mensura a volatidade de um ativo em um determinado período com base em três parâmetros: O preço máximo do ativo no pregão (H), o preço mínimo no pregão (L) e o preco de fechamento do pregão anterior (P). Ele é calculcado da seguinte forma:
@@ -41,7 +42,15 @@ Em resumo, o ATR é um indicador que mensura a volatidade de um ativo em um dete
 True Range = Max[(H-L), |(H-P)|, |(P-L)|]
 \end{equation}
 \begin{equation}
-Average True Range = \sum{i=1}{n}{True Range_i}
+Average True Range = \sum_{i=1}^{n} True Range_i
 \end{equation}
 
-Usualmente, o valor do ATR é calculcado utilizando os valores de *True Range*  de 14 pregões anteriores, podendo ser utilizando os valroes de várias frequência de tempo (intraday, diária, semanal etc.). Para mais informações sobre este indicador, visite a página do [*Investopedia*](https://www.investopedia.com/terms/a/atr.asp).
+Usualmente, o valor do ATR é calculado utilizando os valores de *True Range*  de 14 pregões anteriores, podendo ser utilizando os valroes de várias frequência de tempo (intraday, diária, semanal etc.). Para mais informações sobre este indicador, visite a página do [*Investopedia*](https://www.investopedia.com/terms/a/atr.asp).
+
+A partir do insight gerado pela formulação do ATR, o indicador proposto segue uma construção semelhante.
+
+# A construção do indicador
+Dadas as três informações disponíveis, preços mínimo e máximo (ult. 53 semanas) e o preço corrente, podemos afirmar que:
+$$ P \in [P_{min}, P_{max}] $$
+$$ \overline{P} = \frac{P_{max} + P_{min}}{2} $$
+

@@ -51,6 +51,11 @@ A partir do insight gerado pela formulação do ATR, o indicador proposto segue 
 
 # A construção do indicador
 Dadas as três informações disponíveis, preços mínimo e máximo (ult. 53 semanas) e o preço corrente, podemos afirmar que:
-$$ P \in [P_{min}, P_{max}] $$
-$$ \overline{P} = \frac{P_{max} + P_{min}}{2} $$
+\begin{equation}
+P \in [P_{min}, P_{max}]
+\end{equation}
+
+\begin{equation}
+\overline{P} = \frac{P_{max} + P_{min}}{2}
+\end{equation}
 

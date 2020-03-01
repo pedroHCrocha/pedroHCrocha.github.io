@@ -45,12 +45,12 @@ True Range = Max[(H-L), |(H-P)|, |(P-L)|]
 Average True Range = \sum_{i=1}^{n} True Range_i
 \end{equation}
 
-Usualmente, o valor do ATR é calculado utilizando os valores de *True Range*  de 14 pregões anteriores, podendo ser utilizando os valroes de várias frequência de tempo (intraday, diária, semanal etc.). Para mais informações sobre este indicador, visite a página do [*Investopedia*](https://www.investopedia.com/terms/a/atr.asp).
+Usualmente, o valor do ATR é calculado utilizando os valores de *True Range*  de 14 pregões anteriores, podendo ser utilizando os valores de várias frequência de tempo (intraday, diária, semanal etc.). Para mais informações sobre este indicador, visite a página do [*Investopedia*](https://www.investopedia.com/terms/a/atr.asp).
 
 A partir do insight gerado pela formulação do ATR, o indicador proposto segue uma construção semelhante.
 
 # A construção do indicador
-Dadas as três informações disponíveis, preços mínimo e máximo (ult. 53 semanas) e o preço corrente, podemos afirmar que:
+Dadas as três informações disponíveis, preços mínimo e máximo (ult. 52 semanas) e o preço corrente, podemos afirmar que:
 \begin{equation}
 P \in [P_{min}, P_{max}]
 \end{equation}
@@ -61,12 +61,12 @@ P_{mediano} = \frac{P_{max} + P_{min}}{2}
 
 O tamanho do intervalo é dado por:
 \begin{equation}
-\sigma = P - P_{min} \text{ou} P_{max} - P
+\sigma = P - P_{min}
 \end{equation}
 
 Desse modo, podemos construir um indicador normalizado, tal que:
 \begin{equation}
-I(P,P_{mediano},\sigma) = \frac{P - P_{mediano}}{\sigma}
+I(P,P_{mediano},\sigma) = \frac{P - P_{mediano}}{\sigma} \in [-1,1]
 \end{equation}
 
 

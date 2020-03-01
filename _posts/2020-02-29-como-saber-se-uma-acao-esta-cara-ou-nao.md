@@ -56,6 +56,17 @@ P \in [P_{min}, P_{max}]
 \end{equation}
 
 \begin{equation}
-\overline{P} = \frac{P_{max} + P_{min}}{2}
+P_{mediano} = \frac{P_{max} + P_{min}}{2}
 \end{equation}
+
+O tamanho do intervalo é dado por:
+\begin{equation}
+\sigma = P - P_{min} \text{ou} P_{max} - P
+\end{equation}
+
+Desse modo, podemos construir um indicador normalizado, tal que:
+\begin{equation}
+I(P,P_{mediano},\sigma) = \frac{P - P_{mediano}}{\sigma}
+\end{equation}
+
 

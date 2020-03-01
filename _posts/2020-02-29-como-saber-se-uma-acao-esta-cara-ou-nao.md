@@ -44,4 +44,4 @@ True Range = Max[(H-L), |(H-P)|, |(P-L)|]
 Average True Range = \sum{i=1}{n}{True Range_i}
 \end{equation}
 
-
+Usualmente, o valor do ATR é calculcado utilizando os valores de *True Range*  de 14 pregões anteriores, podendo ser utilizando os valroes de várias frequência de tempo (intraday, diária, semanal etc.). Para mais informações sobre este indicador, visite a página do [*Investopedia*](https://www.investopedia.com/terms/a/atr.asp).

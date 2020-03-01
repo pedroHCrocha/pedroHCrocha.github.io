@@ -10,7 +10,7 @@ Após ler **"A Random Walk Down Wall Street"**, de Burton Malkiel e **"O Investi
 Para analisar empresas de forma rápida e relativamente detalhada, eu utilizo frequentemente o site [Fundamentus](https://www.fundamentus.com.br/). É possível obter informações dos balanços das empresas, indicadores contábeis, como Liquidez Corrente,
 ROE, Dividend Yield; e também indicadores de mercado, como P/L, EV/EBITDA, etc.
 
-Os métodos ensinados pelos "Values Investors" e, em especial, Graham e Malkiel, enfatizam que constantes considerações
+Os métodos ensinados pelos "Value Investors" e, em especial, Graham e Malkiel, enfatizam que constantes considerações
 das flutuações de preços de curto prazo, atrapalha mais do que ajuda o investidor no processo de decisão de
 compra ou venda de um ativo. 
 

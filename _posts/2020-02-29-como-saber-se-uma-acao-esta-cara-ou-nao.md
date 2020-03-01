@@ -33,4 +33,3 @@ está "barata" ou "cara". Este indicador deve ser:
 **1** - *Insensível aos preços de diferentes ações*; 
 
 **2** - *Comparável entre diferentes ações.*
-]

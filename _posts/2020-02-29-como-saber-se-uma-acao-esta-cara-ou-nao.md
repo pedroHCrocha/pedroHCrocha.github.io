@@ -1,5 +1,5 @@
 ---
-title: "Como saber se uma ação está cara ou não usando o mínimo, corrente e máximo?"
+title: "Como saber se uma ação está cara ou não usando os preços mínimo, corrente e máximo?"
 date: 2020-02-29
 tags:
   - finanças

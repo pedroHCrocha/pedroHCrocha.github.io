@@ -93,6 +93,7 @@ As cotações dessas três ações, no dia 28/02, são:
  A ideia do indicador $I(P,P_{mediano},\sigma)$ é estabelecer um valor númerico dentro do intervalo entre -1 e 1, onde $I(.) = -1$ indica um preço corrente igual ao menor preço das últimas 52 semanas e, $I(.) = 1$ indica um preço corrente igual ao preço máximo das últimas 52 semanas. 
  
  
+ 
 
 
 

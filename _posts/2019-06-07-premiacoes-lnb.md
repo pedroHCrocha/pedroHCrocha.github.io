@@ -21,35 +21,29 @@ Os concorrentes nessa categoria são: [Alexey #4](http://lnb.com.br/atletas/alex
 também possui Elinho #5 comandando o time na posição de armador e David Jackson #32, talvez um dos melhores jogadores da liga, na posição de ala/armador. Assim, o critério principal para a seleção de *Melhor Sexto Homem* deve ser o quão bem o jogador que vem do banco consegue preencher o espaço dos astros em sua posição.
 
   Para isso, temos uma estatística chamada **Plus/Minus**. O Plus/Minus mede a diferença de pontuação quando jogador estava em quadra. 
-  {% highlight r %}
 | Jogador   | Equipe      | Jogos | Min/JO | Posição | Idade | PlusMinus |
 |-----------|-------------|-------|--------|---------|-------|-----------|
 | Alexey #4 | Sesi Franca | 26    | 21.00  | Armador | 24    | 5.222222  |
 | Davi #5   | Flamengo    | 26    | 20.35  | Armador | 27    | 6.702703  |
 | Didi #7   | Sesi Franca | 22    | 20.32  | Ala     | 20    | 4.031250  |
-  {% endhighlight r%}
   
   Todos os candidatos jogam aproximadamente 21 minutos por jogos e jogaram a mesma quantidade de jogos, exceto Didi #7, que perdeu alguns jogo devido a uma lesão. No quesito Plus/Minus, quem leva a vantagem é Davi #5, do flamengo. 
   
   Porém, devemos olhar para outras estatísticas para fundamentar a decisão. Uma maneira de sumarizar várias medidas é usando as estatísticas avançadas. Uma boa estatística para avaliar o sexto homem é Usage Rate (UR), métrica que avalia o quanto da atividade de um time envolve um jogador. Pela tabela abaixo, Didi #7 possui o maior Usage Rate, no 85º percentil. Porém, isso é não algo positivo, pois jogadores com mesmo UR, tais como Balbi #6, do Flamengo, com um UR de 21.59 e JP Batista #13, de Mogi, com 21.22 de Usage Rate têm produção muito superior que a de Didi #7. 
   
-  {% highlight r %}
 | Jogador   | Equipe      | Jogos | Min/JO | Posição | Idade | UR    | Percentil |
 |-----------|-------------|-------|--------|---------|-------|-------|-----------|
 | Alexey #4 | Sesi Franca | 26    | 21.00  | Armador | 24    | 16.39 | 45.04     |
 | Davi #5   | Flamengo    | 26    | 20.35  | Armador | 27    | 15.03 | 29.07     |
 | Didi #7   | Sesi Franca | 22    | 20.32  | Ala     | 20    | 21.28 | 85.14     |
-  {% endhighlight r%}
  
   A eficiência será o último critério de seleção. Esta estatística dará a informação sobre a performance do jogador em relação a todas as estatísticas básicas (Pontos, Rebotes, Assistências, Tocos e Bolas roubadas). Alexey #4, nesse quesito, foi o melhor colocado, ocupando o 73º percentil. Para efeito de comparação, Alex Garcia #10, da equipe Bauru, tem um EFF de 9.91.
  
-  {% highlight r %}
 | Jogador   | Equipe      | Jogos | Min/JO | Posição | Idade | EFF   | Percentil |
 |-----------|-------------|-------|--------|---------|-------|-------|-----------|
 | Alexey #4 | Sesi Franca | 26    | 21.00  | Armador | 24    | 10.69 | 73.42     |
 | Davi #5   | Flamengo    | 26    | 20.35  | Armador | 27    | 6.96  | 54.10     |
 | Didi #7   | Sesi Franca | 22    | 20.32  | Ala     | 20    | 9.04  | 65.70     |
-  {% endhighlight r%}
   
   Se isso fosse uma redação do ENEM, eu começaria com 'Portanto, etc ...'. Mas, como não é, o meu voto vai para  **Alexey #4** para Melhor Sexto Homem do ano. Ele teve o 2º melhor Plus/Minus, o 2º maior Usage Rate, a melhor eficência entre os candidatos, bem como, para quem assistiu ele jogar durante o ano, uma postura de armador titular em quadra. 
   
@@ -71,7 +65,6 @@ Melhor Armador
    
    Felizmente, as equipes dos armadores se enfretaram nesses playoffs. Podemos ver os resultados gerados por esses duelos.
  Jamaal #5 foi um dos melhores jogadores desses playoffs e as suas médias mostram isso. No entanto, Balbi #6 e o Flamengo não ficaram atrás e conquistaram o título em cima das equipes dos outros concorrentes. Elinho #5 misturou uma série de boas e más atuações. 
-   {% highlight r %}
    
 | Jogador   | Duelo     | Jogos | Min/JO | PTS   | AST | REB  | BR   | ER   | 3P%   | 2P%   | LL%   | PM    | EF    |
 |-----------|-----------|:-----:|--------|-------|-----|------|------|------|-------|-------|-------|-------|-------|
@@ -79,7 +72,6 @@ Melhor Armador
 | Balbi #6  | Jamaal #5 |   4   | 27.05  | 10.50 | 6.0 | 3.75 | 0.75 | 2.25 | 35.00 | 33.25 | 100   | 7.75  | 15.00 |
 | Balbi #6  | Elinho #5 |   5   | 26.44  | 12.6  | 5.2 | 5.4  | 2.4  | 1.2  | 30.8  | 38.0  | 100   | 6.8   | 12.00 |
 | Elinho #5 | Balbi #6  |   5   | 25.12  | 9.6   | 5.0 | 4.6  | 0.4  | 1.6  | 28.0  | 26.6  | 100   | -5.4  | 2.8   |
-   {% endhighlight r%}
    
    Nesse quesito, não há disputa. Meu voto de Melhor Armador do Ano vai para **Balbi #6**. Mostrou-se, durante a temporada, um armador consistente com boas qualidades ofensivas e defensivas, capaz de liderar uma equipe campeã. Porém, isso não é desmérito à **Jamaal #5**, que apresentou uma evolução absurda nesta pós-temporada e também é merecedor de uma menção honrosa. 
    
@@ -90,25 +82,21 @@ Melhor Estrangeiro
    Os jogadores disputando essa categoria são: [Balbi #6](http://lnb.com.br/atletas/franco-nicolas-balbi/), já conhecido, [David Jackson #32](http://lnb.com.br/atletas/david-wayne-jackson-jr/), do Sesi/Franca e [Fuller #2](http://lnb.com.br/atletas/kyle-alejandro-fuller/), da equipe do Corinthians.
    Avaliando as estatísticas médias da temporada, vemos que Fuller #2 liderou a liga em pontuação, o que é impressionante por si só. Mas David Jackson #32, com 37 anos de idade, ter em média 17.37 pontos também não é algo para se ignorar. Já Balbi #6 é, de longe, o melhor roubador de bolas entre os três e também o que tem o maior número de assistências. 
    
- {% highlight r %}
 
 | Jogador           | Equipe      | Jogos | Posição     | Idade | Min/JO | Pts/JO | Ast/JO | Reb/JO | BR/JO | ER/JO |
 |-------------------|-------------|:-----:|-------------|-------|--------|--------|--------|--------|-------|-------|
 | Balbi #6          | Flamengo    |   26  | Armador     | 30    | 24.35  | 10.26  | 5.65   | 3.57   | 1.80  | 2.03  |
 | David Jackson #32 | Sesi/Franca |   24  | Ala/Armador | 37    | 29.66  | 17.37  | 2.58   | 3.79   | 1.08  | 1.25  |
 | Fuller #2         | Corinthians |   26  | Ala         | 27    | 32.34  | 21.30  | 2.11   | 3.07   | 1.03  | 1.79  |
-{% endhighlight r%}
 
    Todos os candidatos tiveram temporadas espetaculares, mas, pelo fato dessa categoria ser bem menos homogênea que as outras, não é fácil encontrar medidas que justifiquem uma seleção justa. O critério de avaliação aqui será a *evolução* do jogador e contribuição para a Liga como um todo, e poucos jogadores evoluiram tanto quanto *Fuller #2*. 
    
    Todas as estatísticas tiveram um aumento considerável, especialmente na média de pontos, e é por isso que meu voto de  Melhor Estrangeiro do Ano vai para **Fuller #2**.
    
-   {% highlight r %}
 | Temporada           | Equipe | JO | Min  | Pts  | Reb | Ast | 3P%  | 2P%  | LL%  | BR  |
 |---------------------|--------|----|------|------|-----|-----|------|------|------|-----|
 | NBB CAIXA 2017/2018 | CAP    | 41 | 22.6 | 11.0 | 2   | 1.5 | 31.3 | 42.7 | 82.3 | 0.6 |
 | NBB CAIXA 2018/2019 | COR    | 32 | 32.8 | 20.7 | 3   | 2.0 | 35.7 | 45.3 | 88.0 | 1.0 |
-   {% endhighlight r%}
   
   
 Melhor Pivô
@@ -137,7 +125,6 @@ Melhor Pivô
    
    Entre os jogadores da Liga, a maioria dos concorrentes estão acima do 80º percentil, exceto Olivinha #16, porém, neste caso, devemos ter uma visão além do dados. Varejão #17, que também joga no Flamengo, ocupa essa função de 'protetor do garrafão', enquanto o papel de Olivinha #16 é ser um defensor mais versátil, capaz de marcar tanto pivôs e quanto ala/armadores, muito parecido com [Draymond Green](https://pt.wikipedia.org/wiki/Draymond_Green). 
    
-{% highlight r %}
 | Jogador        | Equipe      | Min/JO | Idade | Faltas/JO | TO/JO | Percentil |
 |----------------|-------------|--------|-------|-----------|-------|-----------|
 | Cipolini #15   | Sesi Franca | 23.46  | 33    | 2.04      | 0.27  | 79.71     |
@@ -146,13 +133,12 @@ Melhor Pivô
 | Lucas Dias #9  | Sesi Franca | 30.48  | 24    | 2.56      | 0.96  | 97.58     |
 | Olivinha #16   | Flamengo    | 19.50  | 36    | 1.54      | 0.07  | 51.69     |
 | Varejão #17    | Flamengo    | 19.54  | 37    | 2.04      | 0.37  | 88.40     |
-{% endhighlight r%}
 
    Para tentar captar as estatísticas do modelo de pivô moderno, que joga dentro do garrafão, participa de corta-luz com frequência, mas que também joga bastante na linha dos 3, devemos utilizar a estatística avançada *Effective Field Goal Percentage*, ou *porcentagem de arremesso efetiva*. Para entender como ela funciona, imagine um jogador X acerta 4 de 10 arremessos, com 2 acertos de 3 pontos e 2 acertos de 2 pontos. Logo, 6 pontos vindos de arremessos da linha de 3 e 4 pontos vindo de arremessos de 2 pontos, totalizando 10 pontos. Agora, imagine outro jogador Y acerta 5 de 10 arremessos e os 5 acertos foram da área de 2 pontos. Assim, cada jogador teria 10 pontos para 10 arremessos e, logo, a mesma porcentagem de pontos por arremesso, isto é, a mesma effective field goal percentage. Para ver mais, veja a outra [postagem](https://pedrohcrocha.github.io/web-scrape-lnb).
    
    Cipolini #15 lidera os candidatos, ocupando o 96º percentil entre os jogadores da liga e o 97º percentil. Olivinha #16 e Lucas Dias #9, jogadores que tradicionalmente operam fora da linha dos 3, tem altos EFG%. No entanto, JP Batista #13, que arremessou apenas três bolas de 3 pontos durante a temporada, estar no 90º percentil entre os jogadores da liga é impressionante.
    E é por isso e por todos os outros critérios que meu voto para *Melhor Pivô do Ano* vai para **JP Batista #13**. Como ganhador do segundo posto de *Melhor Pivô do Ano*, meu voto vai para **Lucas Dias #9**, pelo enorme potencial que ele demonstrou ter e pelo papel que ele desempenhou na equipe de Sesi/Franca. 
-{% highlight r %}
+
 | Jogador        | Equipe      | JO  | EFG (%) | Percentil (Liga) | Percentil (Pivôs) |
 |----------------|-------------|-----|---------|:----------------:|:-----------------:|
 | Cipolini #15   | Sesi Franca | 26  | 62.56   |       96.52      |       97.77       |
@@ -161,7 +147,6 @@ Melhor Pivô
 | Lucas Dias #9  | Sesi Franca | 25  | 59.02   |       93.91      |       93.33       |
 | Olivinha #16   | Flamengo    | 26  | 57.91   |       89.56      |       88.88       |
 | Varejão #17    | Flamengo    | 24  | 50.27   |       40.00      |       42.22       |
-{% endhighlight r%}
 
 
 Melhor Ala 
@@ -170,7 +155,6 @@ Melhor Ala
    
    Verificando os *pontos por jogo*, salta aos olhos a similaridade do basquete brasileiro em relação as outras ligas internacionais no que diz respeito da pontuação vinda dos alas. Todos, exceto Betinho #26, encontram-se na casa do 90º percentil. Entre os concorrentes, temos Fuller #2 liderando a liga em pontos e Zach Graham #1 vindo em 2º lugar. Outro padrão evidente é a idade dos concorrentes; o grupo tem idade média de 34 anos, não que isso importe muito. 
    
-{% highlight r %}
 | Jogador           | Equipe      | Min/JO | Idade | PTS/JO | Percentil |
 |-------------------|-------------|--------|-------|--------|-----------|
 | Betinho #26       | Pinheiros   | 21.80  | 40    | 11.84  | 80.67633  |
@@ -179,7 +163,6 @@ Melhor Ala
 | Fuller #2         | Corinthians | 32.34  | 27    | 21.30  | 100.00000 |
 | Marquinhos #11    | Flamengo    | 26.92  | 40    | 15.42  | 94.20290  |
 | Zach Graham #1    | Brasília    | 36.31  | 30    | 19.13  | 99.03382  |
-{% endhighlight r%}
 
    No basquete moderno, um ala deve ter em seu arsenal ofensivo um bom chute da linha de três pontos. Um ala que tem esse artifício abre o espaço na quadra, permitindo que o armador ou ala/armador possa infiltrar com mais facilidade, como também ajuda o pivô a jogar na área do garrafão sem ter o perigo constante de dobrar a marcação nele. 
    

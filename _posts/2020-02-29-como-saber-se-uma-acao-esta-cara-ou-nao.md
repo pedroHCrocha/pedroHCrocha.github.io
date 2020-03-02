@@ -106,7 +106,7 @@ Havíamos comentando o que significam os valores dos quintis definidos nos inter
 
 Reproduzindo o exemplo apresentado acima para algumas empresas que compõem do índice Ibovespa, podemos pular a explicação e ir direto analisar o gráfico:
 
- ![graphic1](../images/Indicador_Ibovespa.png)
+ ![graphic1](../images/Indicador_ExemploIbovespa.png)
 
 
  

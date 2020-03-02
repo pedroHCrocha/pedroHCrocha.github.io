@@ -98,9 +98,17 @@ O resultado gerado pelo indicador pode ser interpretado com um exemplo: Tenha um
  
  ![graphic1](../images/Indicador_Exemplo1.png)
 
-
- Acima, havia sido comentando o que significam os valores dos quintis definidos nos intervalos. Esses valores geram sub-intervalos nos quais o preço de uma ação encontram-se, relativo ao seu preço mínimo, mediano e máximo. Logo, cada sub-intervalo corresponde uma intervalo quintil, onde a posição do valor do indicador nesses intervalos representa a condição subjetiva do ativo, naquele período de tempo.
+Havíamos comentando o que significam os valores dos quintis definidos nos intervalos. Esses valores geram sub-intervalos nos quais se encontram o valor do indicador, relativo ao seu preço mínimo, mediano, corrente e máximo. Logo, cada sub-intervalo corresponde uma intervalo quintil, onde a posição do valor do indicador nesses intervalos representa a condição subjetiva do ativo, naquele período de tempo. 
  
+ Assim, uma ação cujo valor do indicador esteja entre -0.75 e -0.5 pode ser considerada **barata** e, uma ação cujo valor do indicador se aproxima de 1 tende a ter um grau de fator especulativo e, assim, estará **muito cara**. As ações da Petrobrás, Lojas Renner e Banco do Brasil, segundo o indicador, estão dentro do intervalo de confiança, ou seja, estão dentro das flutuações normais do Mercado.
+
+# Exemplo: Empresas do Índice Ibovespa 
+
+Reproduzindo o exemplo apresentado acima para algumas empresas que compõem do índice Ibovespa, podemos pular a explicação e ir direto analisar o gráfico:
+
+ ![graphic1](../images/Indicador_Ibovespa.png)
+
+
  
 
 

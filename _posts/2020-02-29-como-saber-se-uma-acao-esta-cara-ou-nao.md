@@ -69,4 +69,18 @@ Desse modo, podemos construir um indicador normalizado, tal que:
 I(P,P_{mediano},\sigma) = \frac{P - P_{mediano}}{\sigma} \in [-1,1]
 \end{equation}
 
+Usando quantis pertencentes ao intervalo $**[-1,1]**$, estabelecemos os limites $L = {-1, -0.75, -0.5, 0, 0.5, 0.75, 1}$, dos quais cada valor entre os limites do intervalo terá um significado que será explorado na próxima seção.
+
+# Exemplo: Petrobrás (PETR4), Lojas Renner (LREN3) e Banco do Brasil (BBAS3)
+Podemos obter os preços mínimo e máximo das últimas 52 semanas e o preço de fechamento do último pregão dessas empresas de muitas formas. Uma delas é acessar o site da Fundamentus e coletá-las manualmente. Usando linguagens de programalçao, temos  o pacote  **BatchGetSymbols** para o R, e a biblioteca **Quandl**, para Python.
+
+As cotações dessas três ações, no dia 28/02, são:
+
+|           Ativo          | Preço Mínimo | Preço | Preço Máximo |
+|:------------------------:|:------------:|:-----:|:------------:|
+| Petróbras (PETR4)        |     23,49    | 25,34 |     30,81    |
+| Lojas Renner (LREN3)     |     36,81    | 53,30 |     60,87    |
+| Banco do Brasil (BBAS3)  |     42,28    | 46,86 |     53,56    |
+
+
 

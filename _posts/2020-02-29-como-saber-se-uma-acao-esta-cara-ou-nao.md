@@ -100,7 +100,8 @@ O resultado gerado pelo indicador pode ser interpretado com um exemplo: Tenha um
 
 Havíamos comentando o que significam os valores dos quintis definidos nos intervalos. Esses valores geram sub-intervalos nos quais se encontram o valor do indicador, relativo ao seu preço mínimo, mediano, corrente e máximo. Logo, cada sub-intervalo corresponde uma intervalo quintil, onde a posição do valor do indicador nesses intervalos representa a condição subjetiva do ativo, naquele período de tempo. 
  
- Assim, uma ação cujo valor do indicador esteja entre -0.75 e -0.5 pode ser considerada **barata** e, uma ação cujo valor do indicador se aproxima de 1 tende a ter um grau de fator especulativo e, assim, estará **muito cara**. As ações da Petrobrás, Lojas Renner e Banco do Brasil, segundo o indicador, estão dentro do intervalo de confiança, ou seja, estão dentro das flutuações normais do Mercado.
+ Assim, uma ação cujo valor do indicador esteja entre -0.75 e -0.5 pode ser considerada **barata** e, uma ação cujo valor do indicador se aproxima de 1 tende a ter um grau de fator especulativo e, assim, estará **muito cara**. As ações da Petrobrás, Lojas Renner e Banco do Brasil, segundo o indicador, estão dentro do intervalo de confiança, ou seja, estão dentro das flutuações normais do Mercado. A posição do **eixo-y** dos pontos representasa um ponto aleatório no intervalo de **[-1,1]**, não tendo significado matemático.
+
 
 # Exemplo: Empresas do Índice Ibovespa 
 
@@ -109,7 +110,7 @@ Reproduzindo o exemplo apresentado acima para algumas empresas que compõem do �
  ![graphic1](../images/Indicador_ExemploIbovespa.png)
 
 
- 
+ O gráfico apresenta os valores do indicadore de 49 empresas que compõem o índice Ibovespa. Cerca de 60% das empresas encontram-se no intervalo de confiança, definido pelo intervalo **[-0.5,0.,5]**. Outros 24% encontram-se na região "Barata" ou "Desespero". Já os demais estão na região "Cara". Vale ressaltar que o conceito de *caro* e *barato* utilizando é o quão próximo o preço corrente está dos preços máximo e mínimo, respectivamente.
 
 
 

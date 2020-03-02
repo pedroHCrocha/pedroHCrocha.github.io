@@ -110,7 +110,65 @@ Reproduzindo o exemplo apresentado acima para algumas empresas que compõem do �
  ![graphic1](../images/Indicador_ExemploIbovespa.png)
 
 
- O gráfico apresenta os valores do indicadore de 49 empresas que compõem o índice Ibovespa. Cerca de 60% das empresas encontram-se no intervalo de confiança, definido pelo intervalo **[-0.5,0.,5]**. Outros 24% encontram-se na região "Barata" ou "Desespero". Já os demais estão na região "Cara". Vale ressaltar que o conceito de *caro* e *barato* utilizando é o quão próximo o preço corrente está dos preços máximo e mínimo, respectivamente.
+ O gráfico apresenta os valores do indicadores de 49 empresas que compõem o índice Ibovespa. Cerca de 60% das empresas encontram-se no intervalo de confiança, definido pelo intervalo **[-0.5,0.,5]**. Outros 24% encontram-se na região "Barata" ou "Desespero". Já os demais estão na região "Cara". Vale ressaltar que o conceito de *caro* e *barato* utilizando é o quão próximo o preço corrente está dos preços máximo e mínimo, respectivamente. Nesse sentido, podemos considerar que o índice Ibovespa está dentro dos limites das variações de preço esperadas por um mercado de renda variável. 
+ 
+ Algo interessante para ser testado no futuro é verificar a distribuição empírica do valor do indicador considerando outros eixos temporais, seja os preços mínimos e máximos dos últimos 30 pregões ou dos últimos 10 anos. 
+ 
+ Para finalizar, o código utilizado para gerar as informações e o gráfico encontram-se abaixo:
+ 
+ ```r
+ library(BatchGetSymbols)
+ library(ggplot2)
+ library(ggrepel)
+ 
+ EstimadorPontual <- function(empresa){
+  data <- BatchGetSymbols(tickers = empresa,
+                          bench.ticker = '^BVSP',
+                          first.date = (Sys.Date() - 252),
+                          last.date = Sys.Date()) 
+  
+  pp <- data$df.tickers[complete.cases(data$df.tickers),]
+  pp <- data.frame('data'=pp$ref.date, 'acao'=pp$ticker, 'preco'=pp$price.close)
+  last_price <- pp$preco[nrow(pp)] 
+  p.max <- max(pp$preco)
+  p.min <- min(pp$preco)
+  p.med <- (p.max+p.min)/2
+  sigma <- p.max-p.med
+  z <- (last_price-p.med)/sigma
+  return(z)
+  }
+  
+  setores <- list('petrobras' = c("PETR3", "PETR4"),
+                'imobiliario' = c('BRML3','CCRO3','CYRE3','ECOR3','MRVE3','MULT3'),
+                'transporte_telecom' =  c('EMBR3','RENT3','SBSP3','TIMP3','VIVT4'), 
+                'energia' = c('CESP6','CMIG4','CPFE3','CPLE6','ENBR3','EQTL3','EGIE3','WEGE3'),
+                'basico' = c('BRKM5','CSNA3','GGBR4','SUZB3','USIM5','VALE3'),
+                'consumo' = c('VVAR3', 'MGLU3', 'LREN3', 'JBSS3', 'GRND3','LCAM3', '          ALPA4','ABEV3','BRFS3','CSAN3','HYPE3','LAME4','MRFG3','FLRY3','QUAL3','RADL3'), 
+                'financeiro' = c('B3SA3','BBAS3','BBDC4','ITSA4','ITUB4','IRBR3'))
+                
+empresas <- as.vector(unlist(setores))
+empresas <- as.vector(sapply(empresas, function(x) paste0(x, '.SA')))
+zs <- sapply(empresas, function(x) EstimadorPontual(x))
+df <- data.frame(sapply(zs,c))
+df <- data.frame('Empresas' = rownames(df), 'Indicador' = df$sapply.zs..c.)
+df$Empresas <- gsub('.{3}$', '', df$Empresas)
+df$RandomPosition <- rnorm(nrow(df), 0, 0.3)
+ggplot(df, aes(x= Indicador, y = RandomPosition)) + 
+  geom_point(color = "blue", size = 3) +
+  ylim(c(-1,1)) + 
+  xlim(c(-1,1)) + 
+  annotate("text", x = c(-0.921,-0.621,-0.221,0.221,0.621,0.921), y = 0.8,
+           label = c("Desespero", "Barata", "Intervalo\nde\nConfiança",
+                     "Intervalo\nde\nConfiança","Cara","Ganância")) +
+  geom_vline(xintercept = c(-0.75, -0.5, 0, 0.5, 0.75),colour="grey", linetype = "longdash") + 
+  geom_label_repel(aes(label = Empresas),
+                   box.padding   = 0.35, 
+                   point.padding = 0.5,
+                   segment.color = 'grey50') +
+  ggtitle("Indicador nas Empresas do Ibovespa") +
+  theme_classic()
+
+ ```
 
 
 

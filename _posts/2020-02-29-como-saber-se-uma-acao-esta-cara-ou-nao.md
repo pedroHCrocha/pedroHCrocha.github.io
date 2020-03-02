@@ -92,8 +92,14 @@ As cotações dessas três ações, no dia 28/02, são:
  
  A ideia do indicador $I(P,P_{mediano},\sigma)$ é estabelecer um valor númerico dentro do intervalo entre -1 e 1, onde $I(.) = -1$ indica um preço corrente igual ao menor preço das últimas 52 semanas e, $I(.) = 1$ indica um preço corrente igual ao preço máximo das últimas 52 semanas. 
  
- Um melhor maneira de analisar as informações geradas é a partir de um gráfico
+O resultado gerado pelo indicador pode ser interpretado com um exemplo: Tenha uma ação cujos preços mínimo, mediano, corrente e máximo geram um valor para o indicador de -0.75. Então, esta ação encontra-se 75% mais próximo ao seu mínimo das últimas 52 semanas, relativo ao seu preço corrente.
+
+ Um melhor maneira de analisar as informações geradas é a partir de um gráfico:
  
+ ![graphic1](../images/Indicador_Exemplo1.png)
+
+
+ Acima, havia sido comentando o que significam os valores dos quintis definidos nos intervalos. Esses valores geram sub-intervalos nos quais o preço de uma ação encontram-se, relativo ao seu preço mínimo, mediano e máximo. Logo, cada sub-intervalo corresponde uma intervalo quintil, onde a posição do valor do indicador nesses intervalos representa a condição subjetiva do ativo, naquele período de tempo.
  
  
 

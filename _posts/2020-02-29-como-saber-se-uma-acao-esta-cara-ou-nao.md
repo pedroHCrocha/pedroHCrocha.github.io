@@ -20,7 +20,7 @@ relativamente grandes, em termos de mercado de atuação, pagadoras de dividendo
 Os indicadores contábeis e de mercado tradicionalmente utilizados para avaliar se uma  ação está barata ou cara são o Preço sobre o Lucro por Ação (P/L), 
 o Preço sobre o Valor Patrimonial (P/VPA), o P/L com o lucro por ação médio dos últimos 3 anos contábeis,
 o P/L médio do setor de atuação da empresa e o P/L médio do mercado. Vale ressaltar que não existe um indicador atemporal 
-para todo tipo de negócio, bem como não existe um valor universal paraos indicadores que permita classificar um ação entre barata e cara. 
+para todo tipo de negócio, bem como não existe um valor universal para os indicadores que permita classificar um ação entre barata e cara. 
 
 No entanto, fiquei interessado em saber se é possível determinar se uma ação está
 cara ou barata através de um indicador não-contábil. Coincidentemente, esta ideia surgiu ao analisar os dados

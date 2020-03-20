@@ -2,7 +2,7 @@
 title: "Produtividade, Heterogeneidade e Multinacionais brasileiras"
 collection: talks
 type: "Apresentação - 47º Encontro Nacional ANPEC"
-permalink: /talks/2014-03-01-talk-3
+permalink: /talks/encontro-anpec
 venue: "Associação Nacional de Pós-Gradução em Economia"
 date: 2019-12-11
 location: "São Paulo, SP"

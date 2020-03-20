@@ -88,6 +88,19 @@ E(Jogo) = p\theta_1 + (1-p)\theta_0
 E_{relativo}(Jogo) = p(\theta_1 - \gamma) + (1-p)(\theta_0 - \gamma)
 \end{equation}
 
+Assim, assuma que as probabilidades **p** têm os valores $p = (0.5, 0.75, 1)$ e que estas probabilidades são dadas pelo número de pessoas que respondem sabem a resposta e respodem corretamente (em termos percentuais em relação ao total de pessoas na platéia), então, os valores esperados são, respectivamente:
+\begin{equation}
+E(Jogo|p = 0.5) = 0.5 * 500000 + 0.5 * 25000 = 512500
+E(Jogo|p = 0.75) = 0.75 * 500000 + 0.25 * 25000 = 756250
+E(Jogo|p = 1) = 1000000
+\end{equation}
+
+\begin{equation}
+E_{relativo}(Jogo|p = 0.5, n = 0%) = 12500
+E_{relativo}(Jogo|p = 0.75, n = 50%) = 256250
+E_{relativo}(Jogo|p = 1, n = 100%) = 500000
+\end{equation}
+
 No entanto, se ocorrer o caso no qual a alternativa mais votada não é a alternativa correta. Como avaliar esse cenário? Esse caso viola duas premissas do ensaio: 
 
 1. As pessoas da audiência que sabem a resposta não respondem corretamente, logo, as respostas não são equiprováveis;

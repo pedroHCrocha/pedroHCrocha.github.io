@@ -35,7 +35,7 @@ O desafio estava feito: Desenvolver um indicador que utilize apenas os preços m
 **3** - *Limitado a uma escala definida*;
 
 # Referências
-Existem alguns indicadores técnicos, tais como IFR e MACD, que são capaz de identificar o poder das forças compradores *(bullish)* e vendedoras *(bearish)* de uma ação. Talvez o indicador técnico que mais se aproxime do indicador que busco criar seja o **[Averate True Range (ATR])**(https://www.investopedia.com/terms/a/atr.asp), ou Verdadeira Amplitude da Variação. 
+Existem alguns indicadores técnicos, tais como IFR e MACD, que são capaz de identificar o poder das forças compradores *(bullish)* e vendedoras *(bearish)* de uma ação. Talvez o indicador técnico que mais se aproxime do indicador que busco criar seja o **[Averate True Range (ATR)]**(https://www.investopedia.com/terms/a/atr.asp), ou Verdadeira Amplitude da Variação. 
 
 Em resumo, o ATR é um indicador que mensura a volatidade de um ativo em um determinado período com base em três parâmetros: O preço máximo do ativo no pregão (H), o preço mínimo no pregão (L) e o preco de fechamento do pregão anterior (P). Ele é calculcado da seguinte forma:
 \begin{equation}

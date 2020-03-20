@@ -107,13 +107,17 @@ Havíamos comentando o que significam os valores dos quintis definidos nos inter
 
 Reproduzindo o exemplo apresentado acima para algumas empresas que compõem do índice Ibovespa, podemos pular a explicação e ir direto analisar o gráfico:
 
- ![graphic1](../images/Indicador_ExemploIbovespa.png)
+ ![graphic2](../images/Indicador_ExemploIbovespa.png)
 
 
  O gráfico apresenta os valores do indicadores de 49 empresas que compõem o índice Ibovespa. Cerca de 60% das empresas encontram-se no intervalo de confiança, definido pelo intervalo **[-0.5,0.,5]**. Outros 24% encontram-se na região "Barata" ou "Desespero". Já os demais estão na região "Cara". Vale ressaltar que o conceito de *caro* e *barato* utilizando é o quão próximo o preço corrente está dos preços máximo e mínimo, respectivamente. Nesse sentido, podemos considerar que o índice Ibovespa está dentro dos limites das variações de preço esperadas por um mercado de renda variável. 
  
  Algo interessante para ser testado no futuro é verificar a distribuição empírica do valor do indicador considerando outros eixos temporais, seja os preços mínimos e máximos dos últimos 30 pregões ou dos últimos 10 anos. 
  
+ 
+ **EDIT (19/03/2020)**: O COVID-19, aliado a outros fatores, provocou uma redução generalizada nas bolsas das economias mundiais, incluse a brasileira. Para se ter uma ideia da redução no preço das cotações, veja o gráfico:
+  ![graphic3](../images/covid.png)
+
  Para finalizar, o código utilizado para gerar as informações e o gráfico encontram-se abaixo:
  
  ```r

@@ -90,9 +90,9 @@ E_{relativo}(Jogo) = p(\theta_1 - \gamma) + (1-p)(\theta_0 - \gamma)
 
 Assim, assuma que as probabilidades **p** têm os valores $p = (0.5, 0.75, 1)$ e que estas probabilidades são dadas pelo número de pessoas que respondem sabem a resposta e respodem corretamente (em termos percentuais em relação ao total de pessoas na platéia), então, os valores esperados são, respectivamente:
 
-$E(Jogo|p = 0.5) = 0.5 * 500000 + 0.5 * 25000 = 512500$
-$E(Jogo|p = 0.75) = 0.75 * 500000 + 0.25 * 25000 = 756250$
-$E(Jogo|p = 1) = 1000000$
+$E(Jogo; p = 0.5) = 0.5 * 500000 + 0.5 * 25000 = 512500$
+$E(Jogo; p = 0.75) = 0.75 * 500000 + 0.25 * 25000 = 756250$
+$E(Jogo; p = 1) = 1000000$
 
 \begin{equation}
 E_{relativo}(Jogo|p = 0.5, n = 0%) = 12500

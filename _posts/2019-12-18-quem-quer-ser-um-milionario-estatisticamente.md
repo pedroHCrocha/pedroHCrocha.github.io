@@ -78,7 +78,7 @@ Onde: $E(A) = E(Y + Z) = \frac{N+n}{2}$ e $Var(A) = Var(Y + Z) = \frac{N-n}{4}$
 
 Para avaliar esses cenários, temos a proposição 8:
 
-**Proposição 8:** O valor esperado e o valor esperado do jogo são dados por:
+**Proposição 8:** O valor esperado e o valor esperado relativo do jogo são dados por:
 
 \begin{equation}
 E(Jogo) = p\theta_1 + (1-p)\theta_0
@@ -87,8 +87,6 @@ E(Jogo) = p\theta_1 + (1-p)\theta_0
 \begin{equation}
 E_{relativo}(Jogo) = p(\theta_1 - \gamma) + (1-p)(\theta_0 - \gamma)
 \end{equation}
-
-Podemos demonstrar as relações entre os resultados das proposições 6, 7 e 8 por meio de gráficos: ![Respostas4](../images/grafs4.png). 
 
 No entanto, se ocorrer o caso no qual a alternativa mais votada não é a alternativa correta. Como avaliar esse cenário? Esse caso viola duas premissas do ensaio: 
 

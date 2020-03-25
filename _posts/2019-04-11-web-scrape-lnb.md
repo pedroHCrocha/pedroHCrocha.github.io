@@ -83,7 +83,6 @@ Análise dos jogadores da temporada 2018/2017 da Liga Nacional de Basquete
     top_n(10)
   {% endhighlight r%}
   
-  {% highlight r %}
 | Nº | Jogador           | Equipe      | PTS |
 |----|-------------------|-------------|-----|
 | 1  | Fuller #2         | Corinthians | 464 |
@@ -96,11 +95,10 @@ Análise dos jogadores da temporada 2018/2017 da Liga Nacional de Basquete
 | 8  | Léo Meindl #23    | Paulistano  | 322 |
 | 9  | Marquinhos #11    | Flamengo    | 313 |
 | 10 | Bennett #3        | Pinheiros   | 304 |
-  {% endhighlight r%}
  
   No entanto, basquete não se resume em pontuação. Quais são as outras características de um jogador exímio em sua arte? Certamente, são muitas. Para isso, devemos fazer uso de alguns estatísticas não-usuais que compilam várias informações sobre os jogadores. Estas são comumente conhecidas como *analíticas avançadas*. Elas fornecem uma base estatística sobre a qual podemos rankear jogadores. 
   
-  A primeira delas é a [*Eficiência*](https://en.wikipedia.org/wiki/Efficiency_(basketball)), talvez a mais conhecida. Ela junta todas as grandes estatísticas (pontos, rebotes, assistências, roubos, tocos e erros) junto com o total de arremessos convertidos e tentados. Resumidamente, a Eficiência é uma medida de referência generalizada sobre as contribuições ofensivas e defensivas do jogador em quadra. 
+  A primeira delas é a [**Eficiência**](https://en.wikipedia.org/wiki/Efficiency_(basketball)), talvez a mais conhecida. Ela junta todas as grandes estatísticas (pontos, rebotes, assistências, roubos, tocos e erros) junto com o total de arremessos convertidos e tentados. Resumidamente, a Eficiência é uma medida de referência generalizada sobre as contribuições ofensivas e defensivas do jogador em quadra. 
   {% highlight r%}
   
 temporada_2018 %>% 
@@ -108,9 +106,7 @@ temporada_2018 %>%
   select(Jogador, Equipe, EFF) %>% 
   arrange(desc(EFF)) %>% 
   top_n(10)
-  
-{% endhighlight r%}
-  
+    
   {% highlight r%}
 | Nº | Jogador           | Equipe      | EFF   |
 |----|-------------------|-------------|-------|
@@ -124,9 +120,8 @@ temporada_2018 %>%
 | 8  | Lucas Dias #9     | Sesi Franca | 16.45 |
 | 9  | Fuller #2         | Corinthians | 16.00 |
 | 10 | Leandrinho #91    | Minas       | 16.00 |
-  {% endhighlight r%}
 
-Em seguida, temos a queridinha dos analistas americanos, a [*True Shooting*](https://en.wikipedia.org/wiki/True_shooting_percentage) é uma medida de eficiência de arremesso que contabiliza os arremessos de 2 pontos, 3 pontos e lances livres. É de se esperar que bons arremessadores de lances livre se beneficiem dessa estatística pois é hipoteticamente mais fácil. Para evitar analisar que pouco tempo de quadra e porcetagens excessivas boas (pelo número de baixo de tentativas de arremesso), o parâmetro de seleção foi ter jogado, ao menos, 15 minutos por jogo.
+Em seguida, temos a queridinha dos analistas americanos, a [**True Shooting**](https://en.wikipedia.org/wiki/True_shooting_percentage) é uma medida de eficiência de arremesso que contabiliza os arremessos de 2 pontos, 3 pontos e lances livres. É de se esperar que bons arremessadores de lances livre se beneficiem dessa estatística pois é hipoteticamente mais fácil. Para evitar analisar que pouco tempo de quadra e porcetagens excessivas boas (pelo número de baixo de tentativas de arremesso), o parâmetro de seleção foi ter jogado, ao menos, 15 minutos por jogo.
 
 {% highlight r%}
 temporada_2018 %>% 
@@ -138,7 +133,6 @@ temporada_2018 %>%
   top_n(10) 
 {% endhighlight r%}
 
-{% highlight r%}
 | Nº | Jogador           | Equipe      | TS       |
 |----|-------------------|-------------|----------|
 | 1  | David Jackson #32 | Sesi Franca | 70.65949 |
@@ -151,9 +145,11 @@ temporada_2018 %>%
 | 8  | Pastor #9         | São José    | 63.94092 |
 | 9  | Jamaal #5         | Botafogo    | 63.55932 |
 | 10 | Shamell #8        | Mogi        | 63.51966 |
-{% endhighlight r%}
 
-[*Effective Field Goal Percentage*](https://en.wikipedia.org/wiki/Effective_field_goal_percentage) é uma estatística fácil de calcular que ajusta a pontuação do arremesso de três pontos em relação ao arremesso de dois pontos,devido a bonificação da pontuação extra. Por exemplo, se um jogador X acerta 4/10 e acerta duas de 3 pontos, e um jogador Y arremessa 5/10 da área de 2 pontos com 0 dos três, cada jogador teria 10 pontos para 10 arremessos e, logo, a mesma porcentagem de pontos por arremesso, isto é, a mesma effective field goal percentage. Note que o parâmetro usado no True Shooting (%), os minutos em quadra, foram aplicados aqui.
+[**Effective Field Goal Percentage**](https://en.wikipedia.org/wiki/Effective_field_goal_percentage) é uma estatística fácil de calcular que ajusta a pontuação do arremesso de três pontos em relação ao arremesso de dois pontos,devido a bonificação da pontuação extra. 
+
+Por exemplo: se um jogador X acerta 2/6 de 2 pontos e acerta 2/4 de 3 pontos, e um jogador Y arremessa 5/10 da área de 2 pontos com 0 dos três, cada jogador teria 10 pontos para 10 arremessos e, logo, a mesma porcentagem de pontos por arremesso, isto é, a mesma 
+**effective field goal percentage**. Note que o parâmetro usado para filtrar os jogadores no cálculo do True Shooting (%), os minutos em quadra, foram aplicados aqui.
 
 {% highlight r%}
 temporada_2018 %>% 
@@ -165,7 +161,6 @@ temporada_2018 %>%
   top_n(10) 
 {% endhighlight r%}
 
-{% highlight r%}
 | Nº | Jogador           | Equipe        | EFG      |
 |----|-------------------|---------------|----------|
 | 1  | Teichmann #11     | Corinthians   | 71.83099 |
@@ -178,11 +173,10 @@ temporada_2018 %>%
 | 8  | Lucão #3          | Vasco da Gama | 59.72222 |
 | 9  | Lucas Dias #9     | Sesi Franca   | 59.65251 |
 | 10 | Cipolini #15      | Sesi Franca   | 59.49721 |
-{% endhighlight r%}
 
   Agora partirmos para as estatísticas complicadas. Apesar delas requererem uma quantia não-saudável de métricas que confusamente se relacionam, elas, na maioria dos casos, conseguem explicar bem a narrativa da história. 
   
-  Um desses "horrores" analíticos é a [*Usage Rate*](https://www.nbastuffer.com/analytics101/usage-rate/). O caso mais célebre do uso dessa estatística foi o de [Russell Westbrook](https://www.statmuse.com/stories/0e15dfb5-4d87-4c2d-9ad3-994b554aa903), na temporada 2016/2017. Com Kevin Durant machudado, Russell teve de basicamente carregar o time nas costas, anotando vários triplos-duplos consecutivos e igualando o recorde de Oscar Robertson de ter, em média, um triplo-dublo na temporada. Evidentemente, para conseguir tal feito, foi preciso muito tempo com a bola na mão. E é basicamente isso o que esta estatística busca mensurar. Ela sumariza a porcentagem das jogadas de um time vinda de um jogador. 
+  Um desses "horrores" analíticos é a [**Usage Rate**](https://www.nbastuffer.com/analytics101/usage-rate/). O caso mais célebre do uso dessa estatística foi o de [Russell Westbrook](https://www.statmuse.com/stories/0e15dfb5-4d87-4c2d-9ad3-994b554aa903), na temporada 2016/2017. Com Kevin Durant machudado, Russell teve de basicamente carregar o time nas costas, anotando vários triplos-duplos consecutivos e igualando o recorde de Oscar Robertson de ter, em média, um triplo-dublo na temporada. Evidentemente, para conseguir tal feito, foi preciso muito tempo com a bola na mão. E é basicamente isso o que esta estatística busca mensurar. Ela sumariza a porcentagem das jogadas de um time vinda de um jogador. 
   
   {%highlight r%} 
 
@@ -198,7 +192,6 @@ temporada_2018 %>%
 
   {% endhighlight r%}
   
-  {%highlight r%}
 | Nº | Jogador          | Equipe           | UR       |
 |----|------------------|------------------|----------|
 | 1  | Hettsheimeir #30 | Sesi Franca      | 31.55825 |
@@ -212,12 +205,13 @@ temporada_2018 %>%
 | 9  | Schneider #13    | São José         | 25.79185 |
 | 10 | Alex #10         | Bauru            | 25.27061 |
   
-{% endhighlight r%}
+  A estatística que melhor resume as qualidades individuais de um jogador, levando em consideração os minutos que ele passa em quadra e a performance geral da equipe, é o [**Player Efficience Rating**](https://en.wikipedia.org/wiki/Player_efficiency_rating), mais conhecido como **PER**. O PER é uma métrica que busca contemplar todas as contribuições do jogador, especialmente no quesito ataque. Ele é muito utilizado para comparar um jogador no tempo, por exemplo, se um jogador apresentou evolução durante várias temporadas, como também para comparar jogadores de diferentes temporadas. Retomando os exemplos da NBA, Michael Jordan, na temporada 1987-1988, teve um PER de 31.71 e ganhou o MVP, Lebron James, na temporada 2012-2013, teve um PER de 31.59 e ganhou MVP, MVP da final e o campeonato, e Stephen Curry, na temporada 2015-2016, teve um PER de 31.46 e ganhou o 1º MVP unânime em um time de 73 vitórias (mas perdeu o campeonato). 
 
-  A estatística que melhor resume as qualidades individuais de um jogador, levando em consideração os minutos que ele passa em quadra e a performance geral da equipe, é o [Player Efficience Rating](https://en.wikipedia.org/wiki/Player_efficiency_rating), mais conhecido como PER. O PER é uma métrica que busca contemplar todas as contribuições do jogador, especialmente no quesito ataque. Ele é muito utilizado para comparar um jogador no tempo, por exemplo, se um jogador apresentou evolução durante várias temporadas, como também para comparar jogadores de diferentes temporadas. Retomando os exemplos da NBA, Michael Jordan, na temporada 1987-1988, teve um PER de 31.71 e ganhou o MVP, Lebron James, na temporada 2012-2013, teve um PER de 31.59 e ganhou MVP, MVP da final e o campeonato, e Stephen Curry, na temporada 2015-2016, teve um PER de 31.46 e ganhou o 1º MVP unânime em um time de 73 vitórias (mas perdeu o campeonato). 
+  O **PER** é, de longe, a estatística mais difícil de ser calculada. O site do [basketball-reference](https://www.basketball-reference.com/about/per.html) dedica uma página inteira ao cálculo do PER. Um dica: Não se importe muito como o cálculo é realizado ou o 'porquê' das variáveis. A estatística PER, assim como a salsicha e as leis, fica melhor sem saber como é feita. Mas segue alguns passos a partir da base que coletamos. 
+  
+  *Observeração: As variáveis VOP, factor e rebratio foram calculadas a priori. Para ver como são calculadas, veja o site do 'Basketball Reference'*.
 
-  O PER é, de longe, a estatística mais difícil de ser calculada. O site do [basketball-reference](https://www.basketball-reference.com/about/per.html) dedica uma página inteira ao cálculo do PER. Um dica: Não se importe muito como o cálculo é realizado ou o 'porquê' das variáveis. A estatística PER, assim como a salsicha e as leis, fica melhor sem saber como é feita. Mas segue alguns passos a partir da base que coletamos. *Observeração: As variáveis VOP, factor e rebratio foram calculadas a priori. Para ver como são calculadas, veja o site do 'basketball reference'*.
-  {% highlight r%}
+{% highlight r%}
 temporada2018 <- temporada2018 %>% 
   group_by(Equipe) %>% 
   mutate(uPER = (1 / Min) *

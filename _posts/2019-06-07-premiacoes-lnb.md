@@ -20,7 +20,8 @@ Os concorrentes nessa categoria são: [Alexey #4](http://lnb.com.br/atletas/alex
    A equipe do Flamengo possui um excelente armador em Balbi #6 e um bom ala/armador em Deryk #9. Já a equipe do Sesi/Franca
 também possui Elinho #5 comandando o time na posição de armador e David Jackson #32, talvez um dos melhores jogadores da liga, na posição de ala/armador. Assim, o critério principal para a seleção de *Melhor Sexto Homem* deve ser o quão bem o jogador que vem do banco consegue preencher o espaço dos astros em sua posição.
 
-  Para isso, temos uma estatística chamada **Plus/Minus**. O Plus/Minus mede a diferença de pontuação quando jogador estava em quadra. 
+  Para isso, temos uma estatística chamada **Plus/Minus**. O Plus/Minus mede a diferença de pontuação quando jogador estava em quadra.
+  
 | Jogador   | Equipe      | Jogos | Min/JO | Posição | Idade | PlusMinus |
 |-----------|-------------|-------|--------|---------|-------|-----------|
 | Alexey #4 | Sesi Franca | 26    | 21.00  | Armador | 24    | 5.222222  |

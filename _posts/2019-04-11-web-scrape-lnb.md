@@ -106,8 +106,8 @@ temporada_2018 %>%
   select(Jogador, Equipe, EFF) %>% 
   arrange(desc(EFF)) %>% 
   top_n(10)
-    
-  {% highlight r%}
+  {% endhighlight r%}
+  
 | Nº | Jogador           | Equipe      | EFF   |
 |----|-------------------|-------------|-------|
 | 1  | JP Batista #13    | Mogi        | 20.91 |
@@ -263,7 +263,6 @@ temporada2018 <- temporada2018 %>%
   top_n(10)
   {% endhighlight r%}
   
- {% highlight r%}
 | Nº | Jogador           | Equipe           | PER       |
 |----|-------------------|------------------|-----------|
 | 1  | Olivinha #16      | Flamengo         | 26.399667 |
@@ -276,7 +275,6 @@ temporada2018 <- temporada2018 %>%
 | 8  | Léo Meindl #23    | Paulistano       | 22.335158 |
 | 9  | Balbi #6          | Flamengo         | 22.106162 |
 | 10 | Lucas Dias #9     | Sesi Franca      | 21.86010  |
- {% endhighlight r%}
 
    
  

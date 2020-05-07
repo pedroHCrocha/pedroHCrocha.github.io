@@ -111,7 +111,7 @@ P(X \geq x) =  \sum_k^N \frac{N!}{k!(N-k)!} \cdot p^kq^{N-k}
  
 Desse modo, usando o **exemplo 1** como teste, a probabilidade de ter 75 % ou mais votos aleatórios na questão certa é de aproximadamente 0%. Ou seja, podemos afimar que se os participantes da audiência chutam a resposta, é altamente improvável que uma deles tenha 75% dos votos. Assim, os resultados são explicados por outro fator, que é o número de pessoas que sabem a resposta.
 
-**Resumo da estratégia:** Essa estratégia é bem simples. Depois de pedir ajuda a audiência, se uma das alternativas tiver 75% dos votos, então o jogador pode inferir, com certo nível de segurança, que 50% da audiência sabe a resposta. Então, qualquer nível acima de 75% dos votos indica que mais da metada da platéia sabe a resposta. No entanto, para equilibrar o valor do prêmio entre não responder a pergunta de 1 milhão e respondê-lá com o risco de errar, seria necessário que uma das alternativas tenha 95% dos votos. Para níveis abaixo disso, o jogador estará melhor não respondendo.
+**Resumo da estratégia:** Essa estratégia é bem simples. Depois de pedir ajuda a audiência, se uma das alternativas tiver 75% dos votos, então o jogador pode inferir, com certo nível de segurança, que 50% da audiência sabe a resposta. Então, qualquer nível acima de 75% dos votos indica que mais da metade da platéia sabe a resposta. No entanto, para equilibrar o valor do prêmio entre não responder a pergunta de 1 milhão e respondê-lá com o risco de errar, seria necessário que uma das alternativas tenha 95% dos votos. Para níveis abaixo disso, o jogador estará melhor não respondendo.
 
 
 

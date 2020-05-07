@@ -89,4 +89,11 @@ Juntado ataque e defesa, obtemos uma estimativa mais precisa sobre a qualidade d
 | Flamengo   |   11-12   | 14,69 |   0,03   |  14,66 |         4        |   Não  |    Não   |
 | Flamengo   |   14-15   | 14,06 |   0,03   |  14,03 |         3        |   Sim  |    Sim   |
 
+Confesso que imaginei as equipes do Flamengo estariam bem colocadas, mas não esperava que 8 das 10 equipes com maiores Net Rating fossem flamenguistas. Além do mais, se fossêmos considerar apenas o critério da estatística, poderíamos afirmar que a equipe do Bauru da temporada de 2014/2015 é a melhor equipe da história do basquete brasileiro. 
+
+Essa equipe de [Bauru](https://lnb.com.br/noticias/time-dos-sonhos/), na temporada de 2014/2015, tinha Robert Day (logo da LNB), Alex Garcia (hoje, no Minas), Fischer (Corinthians), Rafael Hettsheimeir (Sesi Franca), Larry Taylor (Bauru), Murilo (São Paulo), Gui Deodato (Minas) e outros mais. Um foto da equipe está nesse [link](https://www.canhota10.com/bauru-basket/lancamento-time/). O técnico era Guerrinha (atualmente, defende o Mogi da Cruzes). O time teve 28 vitórias em 30 jogos durante a fase de classificação.
+
+Porém, o Bauru perdeu na final para o Flamengo, liderado por Laprovittola, Benite, Felício(hoje, na NBA) e Olivinha. Dificilmente pode se argumentar que um time que perde na final tendo uma temporada regular excepcional é o melhor time da história *(Estamos de olho em você, Draymond Green)*.
+
+Assim, de acordo com a estatstica, o melhor time da história é o Flamengo de 2012/2013. Um time campeão com o 6º melhor ataque e 8º melhor defesa da história, com jogadores como Marquinhos, Duda, Olivinha e Caio Torres.
 

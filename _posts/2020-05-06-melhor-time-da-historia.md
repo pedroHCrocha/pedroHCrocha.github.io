@@ -11,7 +11,7 @@ Assim, invés de buscar argumentos para analisar qual time teria maiores chances
 
 Antes de iniciar, é preciso esclarecer os métodos de análise. Boa parte dos *insigths* aqui apresentados foram influência de Dean Oliver e seu livro **"Basketball on Paper: Rules and Tools for Performance Analysis"**. Alguns conceitos são fundamentais para entender o contexto da avaliação. Para aliviar no uso de fórmulas, colocarei links para verificar como cada estatística é calculada. As estatsticas usadas serão:
 
-- Posses: Estimativa do número de posses de uma equipe no jogo. Quanto maior o número de posses, mais tentativas de converter cestas o time terá;
+- [Posses](https://www.nbastuffer.com/analytics101/possession/): Estimativa do número de posses de uma equipe no jogo. Quanto maior o número de posses, mais tentativas de converter cestas o time terá;
 - Pontos realizado por posse: Média de pontos realizados por uma equipe ao longo da temporada divido pelo número de posses;
 - Pontos sofridos por posse: Média de pontos sofridos por uma equipe ao longo da temporada divido pelo número de posses;
 - [Offensive Rating](https://www.nbastuffer.com/analytics101/offensive-efficiency/): Medida de eficiência do lado ofensivo da equipe;

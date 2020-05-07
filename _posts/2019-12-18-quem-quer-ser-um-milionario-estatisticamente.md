@@ -72,31 +72,31 @@ Onde: $E(A) = E(Y + Z) = \frac{N+n}{2}$ e $Var(A) = Var(Y + Z) = \frac{N-n}{4}$
  
  Para observar qual é a melhor decisão dessa estratégia do ponto de vista monetário, temos que analisar o valor esperado do jogo. Pelas regras definidas no modelo americano do jogo, o jogador tem três cenários na questão de 1 milhão:
  
-1. Se não responder, fica com 500.000 reais ($\gamma$);
-2. Se acertar, ganha 1.000.000 reais ($\theta_1$);
-3. Se errar, ganha 25.000 reais ($\theta_0$).
+1. Se não responder, fica com 500.000 reais;
+2. Se acertar, ganha 1.000.000 reais;
+3. Se errar, ganha 25.000 reais.
+
+Porém, [Daniel Kahneman](https://pt.wikipedia.org/wiki/Daniel_Kahneman), autor do livro *Rápido e Devagar*, escreve que nós, seres humanos, estamos muitos mais propensos a sofrer com as perdas do que regojizar os ganhos. Então, a ótica do problema deve ser invertida. 
+
+Ao chegar no programa, o candidato tem R$ 0,00 e, se ele chegar a pergunta de 1 milhão, já sai com uma quantia monetária acima do valor que chegou, ou seja, poderá ter luxo de se arriscar. Mas, se imaginarmos que o indivíduo chega ao programa devendo 1 milhão de reais, então, suas escolhas pauraram-se em minizar a dívida ao sair do programa, com base nos valores esperados.
 
 Para avaliar esses cenários, temos a proposição 8:
 
-**Proposição 8:** O valor esperado e o valor esperado relativo do jogo são dados por:
+**Proposição 8:** O valor esperado do jogo é dado por:
 
 \begin{equation}
 E(Jogo) = p\theta_1 + (1-p)\theta_0
 \end{equation}
 
+Assim, para igualar o valor negativo criado no cenário acima, o indivíduo deve acertar a pergunta de 1 milhão. Pela proposição (8), podemos encontrar o valor da probabilidade em que o valor da "dívida" caso o indivíduo erre a questão de 1 milhão seja igual ao valor dívida caso ele não responda:
+
 \begin{equation}
-E_{relativo}(Jogo) = p(\theta_1 - \gamma) + (1-p)(\theta_0 - \gamma)
+E(Jogo|JOGOU) = 0p + (-500000)(1-p) = E(Jogo|Não jogou) = -250000
 \end{equation}
 
-Assim, assuma que as probabilidades **p** têm os valores $p = (0.5, 0.75, 1)$ e que estas probabilidades são dadas pelo número de pessoas que respondem sabem a resposta e respodem corretamente (em termos percentuais em relação ao total de pessoas na platéia), então, os valores esperados são, respectivamente:
-
-$E(Jogo; p = 0.5) = 0.5 * 500000 + 0.5 * 25000 = 512500$
-$E(Jogo; p = 0.75) = 0.75 * 500000 + 0.25 * 25000 = 756250$
-$E(Jogo; p = 1) = 1000000$
-
-$E_{relativo}(Jogo;p = 0.5, n = 0%) = 12500$
-$E_{relativo}(Jogo;p = 0.75, n = 50%) = 256250$
-$E_{relativo}(Jogo;p = 1, n = 100%) = 500000$
+\begin{equation}
+p = 1-(-250000/-500000) = 19/20 = 0,95
+\end{equation}
 
 No entanto, se ocorrer o caso no qual a alternativa mais votada não é a alternativa correta. Como avaliar esse cenário? Esse caso viola duas premissas do ensaio: 
 

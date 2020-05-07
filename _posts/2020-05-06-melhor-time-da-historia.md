@@ -58,21 +58,35 @@ Considerando a Offensive Rating (OR) como sendo uma medida confiável e consiste
 
 A Defensive Rating (DR) mede a eficiência defensiva da equipe. Então, quanto menor o valor, mais eficiente a equipe é defensivamente. Em outras palavras, ela permite um baixo número de pontos por posses. Assim, as 10 equipes com as melhores defesas desde de 2008 são:
 
-| Equipe      | Temporada | DR    | DR médio | DiffDR |
-|-------------|-----------|-------|:--------:|--------|
-| Sesi Franca | 12-13     | 95,4  |    108   | -12,63 |
-| Flamengo    | 18-19     | 94,5  |    107   | -12,58 |
-| Flamengo    | 15-16     | 95,9  |    106   | -9,96  |
-| Joinville   | 08-09     | 98,3  |    108   | -9,39  |
-| Flamengo    | 09-10     | 101,6 |    110   | -8,58  |
-| Sesi Franca | 17-18     | 94,6  |    103   | -8,18  |
-| Minas       | 14-15     | 102,1 |    110   | -8,08  |
-| Flamengo    | 12-13     | 100,3 |    108   | -7,78  |
-| Bauru       | 14-15     | 102,6 |    110   | -7,59  |
-| Paulistano  | 17-18     | 95,5  |    103   | -7,30  |
+| Equipe      | Temporada |   DR  | DR médio | DiffDR |
+|-------------|:---------:|:-----:|:--------:|:------:|
+| Sesi Franca |   12-13   |  95,4 |    108   | -12,63 |
+| Flamengo    |   18-19   |  94,5 |    107   | -12,58 |
+| Flamengo    |   15-16   |  95,9 |    106   |  -9,96 |
+| Joinville   |   08-09   |  98,3 |    108   |  -9,39 |
+| Flamengo    |   09-10   | 101,6 |    110   |  -8,58 |
+| Sesi Franca |   17-18   |  94,6 |    103   |  -8,18 |
+| Minas       |   14-15   | 102,1 |    110   |  -8,08 |
+| Flamengo    |   12-13   | 100,3 |    108   |  -7,78 |
+| Bauru       |   14-15   | 102,6 |    110   |  -7,59 |
+| Paulistano  |   17-18   |  95,5 |    103   |  -7,30 |
 
 
+# 10 Equipes com Maiores Net Rating
 
+Juntado ataque e defesa, obtemos uma estimativa mais precisa sobre a qualidade da equipe. Note que, em várias instâncias, equipes entre os melhores ataques e as melhores defesas estão na seção de melhores equipes. Por fim, as 10 melhores equipes desde de 2008, de acordo com Net Rating, são:
 
+| Equipe     | Temporada |   NR  | NR médio | DiffNR | Colocação (Fase) | Final? | Campeão? |
+|------------|:---------:|:-----:|:--------:|:------:|:----------------:|:------:|:--------:|
+| Bauru      |   14-15   | 20,85 |   0,03   |  20,82 |         1        |   Sim  |    Não   |
+| Flamengo   |   12-13   | 19,51 |   0,02   |  19,49 |         1        |   Sim  |    Sim   |
+| Flamengo   |   15-16   | 18,90 |   -0,05  |  18,95 |         1        |   Sim  |    Sim   |
+| Flamengo   |   18-19   | 18,58 |   0,04   |  18,54 |         1        |   Sim  |    Sim   |
+| Flamengo   |   09-10   | 18,15 |   0,00   |  18,15 |         2        |   Sim  |    Não   |
+| Flamengo   |   08-09   | 17,89 |   0,13   |  17,76 |         1        |   Sim  |    Sim   |
+| Paulistano |   17-18   | 17,02 |   0,04   |  16,98 |         2        |   Sim  |    Sim   |
+| Flamengo   |   17-18   | 15,09 |   0,04   |  15,05 |         1        |   Não  |    Não   |
+| Flamengo   |   11-12   | 14,69 |   0,03   |  14,66 |         4        |   Não  |    Não   |
+| Flamengo   |   14-15   | 14,06 |   0,03   |  14,03 |         3        |   Sim  |    Sim   |
 
 

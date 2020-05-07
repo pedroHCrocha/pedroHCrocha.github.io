@@ -95,7 +95,7 @@ E(Jogo|JOGOU) = 0p + (-500000)(1-p) = E(Jogo|Não jogou) = -250000
 \end{equation}
 
 \begin{equation}
-p = 1-(-250000/-500000) = 19/20 = 0,95 = 95%
+p = 1-(-250000/-500000) = 19/20 = 0,95
 \end{equation}
 
 No entanto, se ocorrer o caso no qual a alternativa mais votada não é a alternativa correta. Como avaliar esse cenário? Esse caso viola duas premissas do ensaio: 

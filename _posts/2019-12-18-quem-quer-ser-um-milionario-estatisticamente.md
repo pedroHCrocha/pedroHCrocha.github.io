@@ -78,7 +78,7 @@ Onde: $E(A) = E(Y + Z) = \frac{N+n}{2}$ e $Var(A) = Var(Y + Z) = \frac{N-n}{4}$
 
 Porém, [Daniel Kahneman](https://pt.wikipedia.org/wiki/Daniel_Kahneman), autor do livro *Rápido e Devagar*, escreve que nós, seres humanos, estamos muitos mais propensos a sofrer com as perdas do que regojizar os ganhos. Então, a ótica do problema deve ser invertida. 
 
-Ao chegar no programa, o candidato tem R$ 0,00 e, se ele chegar a pergunta de 1 milhão, já sai com uma quantia monetária acima do valor que chegou, ou seja, poderá ter luxo de se arriscar. Mas, se imaginarmos que o indivíduo chega ao programa devendo 1 milhão de reais, então, suas escolhas pauraram-se em minizar a dívida ao sair do programa, com base nos valores esperados.
+Ao chegar no programa, o candidato tem R$ 0,00 e, se ele chegar a pergunta de 1 milhão, já sai com uma quantia monetária acima do valor que chegou, ou seja, poderá ter luxo de se arriscar. Mas, se imaginarmos que o indivíduo chega ao programa devendo 1 milhão de reais, então, suas escolhas se pautaram em minizar a dívida ao sair do programa, com base nos valores esperados.
 
 Para avaliar esses cenários, temos a proposição 8:
 
@@ -91,7 +91,7 @@ E(Jogo) = p\theta_1 + (1-p)\theta_0
 Assim, para igualar o valor negativo criado no cenário acima, o indivíduo deve acertar a pergunta de 1 milhão. Pela proposição (8), podemos encontrar o valor da probabilidade em que o valor da "dívida" caso o indivíduo erre a questão de 1 milhão seja igual ao valor dívida caso ele não responda:
 
 \begin{equation}
-E(Jogo|JOGOU) = 0p + (-500000)(1-p) = E(Jogo|Não jogou) = -250000
+E(Jogo|JOGOU=1) = 0p + (-500000)(1-p) = E(Jogo|JOGOU=0) = -250000
 \end{equation}
 
 \begin{equation}

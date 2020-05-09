@@ -7,7 +7,7 @@ tags:
 ---
 Após ler **"A Random Walk Down Wall Street"**, de Burton Malkiel e **"O Investidor Inteligente"**, de Benjamin Graham, decidi começar a operar na renda variável. 
 
-Para analisar empresas de forma rápida e relativamente detalhada, eu utilizo frequentemente o site [Fundamentus] (https://www.fundamentus.com.br/). É possível obter informações dos balanços das empresas, indicadores contábeis, como Liquidez Corrente,
+Para analisar empresas de forma rápida e relativamente detalhada, eu utilizo frequentemente o site [Fundamentus](https://www.fundamentus.com.br/). É possível obter informações dos balanços das empresas, indicadores contábeis, como Liquidez Corrente,
 ROE, Dividend Yield; e também indicadores de mercado, como P/L, EV/EBITDA, etc.
 
 Os métodos ensinados pelos "Value Investors" e, em especial, Graham e Malkiel, enfatizam que constantes considerações

@@ -88,7 +88,7 @@ Para avaliar esses cenários, temos a proposição 8:
 E(Jogo) = p\theta_1 + (1-p)\theta_0
 \end{equation}
 
-Assim, para igualar o valor negativo criado no cenário acima, o indivíduo deve acertar a pergunta de 1 milhão. Pela proposição (8), podemos encontrar o valor da probabilidade em que o valor da "dívida" caso o indivíduo erre a questão de 1 milhão seja igual ao valor dívida caso ele não responda:
+Assim, para igualar o valor negativo criado no cenário acima, o indivíduo deve acertar a pergunta de 1 milhão. Pela proposição (8), podemos encontrar o valor da probabilidade em que o valor da "dívida" (caso o indivíduo erre a questão de 1 milhão) seja igual ao valor da dívida caso o jogador opte por não responder:
 
 \begin{equation}
 E(Jogo|JOGOU=1) = 0p + (-500000)(1-p) = E(Jogo|JOGOU=0) = -250000

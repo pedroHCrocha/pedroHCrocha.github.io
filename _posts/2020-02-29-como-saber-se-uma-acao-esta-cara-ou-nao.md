@@ -7,7 +7,7 @@ tags:
 ---
 Após ler **"A Random Walk Down Wall Street"**, de Burton Malkiel e **"O Investidor Inteligente"**, de Benjamin Graham, decidi começar a operar na renda variável. 
 
-Para analisar empresas de forma rápida e relativamente detalhada, eu utilizo frequentemente o site [Fundamentus](https://www.fundamentus.com.br/). É possível obter informações dos balanços das empresas, indicadores contábeis, como Liquidez Corrente,
+Para analisar empresas de forma rápida e relativamente detalhada, eu utilizo frequentemente o site [Fundamentus] (https://www.fundamentus.com.br/). É possível obter informações dos balanços das empresas, indicadores contábeis, como Liquidez Corrente,
 ROE, Dividend Yield; e também indicadores de mercado, como P/L, EV/EBITDA, etc.
 
 Os métodos ensinados pelos "Value Investors" e, em especial, Graham e Malkiel, enfatizam que constantes considerações
@@ -35,7 +35,7 @@ O desafio estava feito: Desenvolver um indicador que utilize apenas os preços m
 **3** - *Limitado a uma escala definida*;
 
 # Referências
-Existem alguns indicadores técnicos, tais como IFR e MACD, que são capaz de identificar o poder das forças compradores *(bullish)* e vendedoras *(bearish)* de uma ação. Talvez o indicador técnico que mais se aproxime do indicador que busco criar seja o **[Averate True Range (ATR)]**(https://www.investopedia.com/terms/a/atr.asp), ou Verdadeira Amplitude da Variação. 
+Existem alguns indicadores técnicos, tais como IFR e MACD, que são capaz de identificar o poder das forças compradores *(bullish)* e vendedoras *(bearish)* de uma ação. Talvez o indicador técnico que mais se aproxime do indicador que busco criar seja o [Averate True Range ATR](https://www.investopedia.com/terms/a/atr.asp), ou Verdadeira Amplitude da Variação. 
 
 Em resumo, o ATR é um indicador que mensura a volatidade de um ativo em um determinado período com base em três parâmetros: O preço máximo do ativo no pregão (H), o preço mínimo no pregão (L) e o preco de fechamento do pregão anterior (P). Ele é calculcado da seguinte forma:
 \begin{equation}

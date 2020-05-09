@@ -147,7 +147,8 @@ Reproduzindo o exemplo apresentado acima para algumas empresas que comp√µem do √
                 'transporte_telecom' =  c('EMBR3','RENT3','SBSP3','TIMP3','VIVT4'), 
                 'energia' = c('CESP6','CMIG4','CPFE3','CPLE6','ENBR3','EQTL3','EGIE3','WEGE3'),
                 'basico' = c('BRKM5','CSNA3','GGBR4','SUZB3','USIM5','VALE3'),
-                'consumo' = c('VVAR3', 'MGLU3', 'LREN3', 'JBSS3', 'GRND3','LCAM3', '          ALPA4','ABEV3','BRFS3','CSAN3','HYPE3','LAME4','MRFG3','FLRY3','QUAL3','RADL3'), 
+                'consumo' = c('VVAR3', 'MGLU3', 'LREN3', 'JBSS3', 'GRND3','LCAM3',
+                'ALPA4','ABEV3','BRFS3','CSAN3','HYPE3','LAME4','MRFG3','FLRY3','QUAL3','RADL3'), 
                 'financeiro' = c('B3SA3','BBAS3','BBDC4','ITSA4','ITUB4','IRBR3'))
                 
 empresas <- as.vector(unlist(setores))

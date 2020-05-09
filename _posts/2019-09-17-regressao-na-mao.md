@@ -86,7 +86,7 @@ O resultado dessa derivada nos retorna  as **equações normais**:
 
 Note que o produto das matrizes $X^TX$ sempre retornará uma matriz quadrada. Relembrando nosso exemplo, a matriz $X$ tem dimensões *10 x 5* e a $X^T$ tem dimensões *5 x 10*, logo, o produto entre elas gerará uma matriz com dimensões *10 x 10*. Isso é importante pois teremos que encontrar a **matriz Inversa** dela, e só é possível encontrar a matriz inversa em matrizes quadradas (de mesma dimensão). $X^TX$ também é uma matriz simétrica, isto é, $X^T = X$.
 
-Usando a já mencionada matriz inversa, podemos multiplicar \( (X^TX)^{-1}\) em ambos os lados:
+Usando a já mencionada matriz inversa, podemos multiplicar $\( (X^TX)^{-1}\)$ em ambos os lados:
 
 \begin{equation}(X^TX)^{-1}(X^TX)\hat\beta = (X^TX)^{-1}X^Ty\end{equation}
 

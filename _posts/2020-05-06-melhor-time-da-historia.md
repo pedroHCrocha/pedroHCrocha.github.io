@@ -9,7 +9,7 @@ Com o fim definitivo da temporada 2019/2020 da Liga Nacional de Basquete graças
 
 Assim, invés de buscar argumentos para analisar qual time teria maiores chances de ganhar esse ano, podemos fazer uma análise restrospectiva das outras temporadas do basquete brasileiro, ainda quando era Novo Basquete Brasil (NBB), e avaliar os grandes times da história, seus jogadores e comissão técnica e o nível de sucesso do time na temporada. Desse modo, apesar de não termos uma resposta concreta sob qual time seria campeão (e nunca teremos, não importa quantos dados e estatísticas forem utilizados), podemos selecionar um top-5 de equipes que possivelmente teriam melhor chance de disputar pelo título. 
 
-Antes de iniciar, é preciso esclarecer os métodos de análise. Boa parte dos *insigths* aqui apresentados foram influência de Dean Oliver e seu livro **"Basketball on Paper: Rules and Tools for Performance Analysis"**. Alguns conceitos são fundamentais para entender o contexto da avaliação. Para aliviar no uso de fórmulas, colocarei links para verificar como cada estatística é calculada. As estatsticas usadas serão:
+Antes de iniciar, é preciso esclarecer os métodos de análise. Boa parte dos *insigths* aqui apresentados foram influência de Dean Oliver e seu livro **"Basketball on Paper: Rules and Tools for Performance Analysis"**. Alguns conceitos são fundamentais para entender o contexto da avaliação. Para aliviar no uso de fórmulas, colocarei links para verificar como cada estatística é calculada. As estatísticas usadas serão:
 
 - [Posses](https://www.nbastuffer.com/analytics101/possession/): Estimativa do número de posses de uma equipe no jogo. Quanto maior o número de posses, mais tentativas de converter cestas o time terá;
 - Pontos realizado por posse: Média de pontos realizados por uma equipe ao longo da temporada divido pelo número de posses;
@@ -95,5 +95,5 @@ Essa equipe de [Bauru](https://lnb.com.br/noticias/time-dos-sonhos/), na tempora
 
 Porém, o Bauru perdeu na final para o Flamengo, liderado por Laprovittola, Benite, Felício(hoje, na NBA) e Olivinha. Dificilmente pode se argumentar que um time que perde na final tendo uma temporada regular excepcional é o melhor time da história *(Estamos de olho em você, Draymond Green)*.
 
-Assim, de acordo com a estatstica, o melhor time da história é o Flamengo de 2012/2013. Um time campeão com o 6º melhor ataque e 8º melhor defesa da história, com jogadores como Marquinhos, Duda, Olivinha e Caio Torres.
+Assim, de acordo com a estatística, o melhor time da história é o Flamengo de 2012/2013. Um time campeão com o 6º melhor ataque e 8º melhor defesa da história, com jogadores como Marquinhos, Duda, Olivinha e Caio Torres.
 

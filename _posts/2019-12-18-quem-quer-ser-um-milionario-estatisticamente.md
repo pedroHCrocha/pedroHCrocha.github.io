@@ -3,7 +3,6 @@ title: "Pedir ajuda à audiência ou pedir 50/50 primeiro? Quem quer ser um mili
 date: 2019-12-18
 tags:
   - estatística
-  - python
 ---
 Recentemente, assisti um [vídeo](https://www.youtube.com/watch?v=B7l0eSQO9dM) no qual o participante da jogo "Quem quer ser um milionário?" estava na pergunta de 1 milhão. Ele ainda possuía duas ajudas: Pergunte a audiência e 50/50. Em algum momento, o participante até brinca com o apresentador sobre qual ajuda ele deveria pedir primeiro. O apresentador aconselha 50/50 e, depois, perguntar a audiência, pois discartaria as alternativas erradas e ajudaria a resposta correta ser a mais escolhida. O participante, porém, argumenta que é melhor pedir ajuda a audiência e, depois, solicitar o 50/50, pois distribuiria as respostas erradas por mais alternativas, sobrando a resposta correta como mais votos.
 
@@ -130,7 +129,7 @@ Desse modo, para prosseguir, devemos criar mais uma duas proposições:
 A construção das propriedades estatísticas das respostas da platéia segue a mesma linha de raciocínio da 1º estratégia. A distribuição resultante é dada pela proposição 11:
 
 **Proposição 11:** As respostas das N pessoas da audiência têm distribuição dada por:
-\begin{equation} A = (Y + Z) \sim (E(Y + Z), Var(Y + Z)) \end{equation
+\begin{equation} A = (Y + Z) \sim (E(Y + Z), Var(Y + Z)) \end{equation}
 Onde: $E(A) = E(Y + Z) = \frac{N-3n}{4}$ e $Var(A) = Var(Y + Z) = \frac{3(N-n)}{16}$
 
 Por envolver mais alternativas, a análise comparativa torna-se difícil. Assim, é mais fácil simular vários jogos com diversos números de pessoas que sabem a resposta e avaliar se há alguma tendência nessa 1ª fase. Duas tendência conhecemos: Se ninguém souber a resposta, todos as alternativas terão 25% das respostas, na média; E se todos souberem a resposta, então, uma alternativa terá todas as repostas. Para avaliar a simulação, veja abaixo:  

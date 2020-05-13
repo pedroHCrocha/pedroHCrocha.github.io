@@ -41,7 +41,7 @@ Como as respostas são independentes, então podemos transformar a distribuiçã
 
 Somando as proposições 4 e 5, podemos obter a média e a variância da distribuição das respostas de toda a audiência. Desse modo, temos:
 
-**Proposição 6:** As respostas das N pessoas da audiência tem distribuição dada por:
+**Proposição 6:** As respostas das N pessoas da audiência têm distribuição dada por:
 \begin{equation} A = (Y + Z) \sim (E(Y + Z), Var(Y + Z)) \end{equation}
 
 Onde: $E(A) = E(Y + Z) = \frac{N+n}{2}$ e $Var(A) = Var(Y + Z) = \frac{N-n}{4}$
@@ -113,5 +113,27 @@ Desse modo, usando o **exemplo 1** como teste, a probabilidade de ter 75 % ou ma
 
 **Resumo da estratégia:** Essa estratégia é bem simples. Depois de pedir ajuda a audiência, se uma das alternativas tiver 75% dos votos, então o jogador pode inferir, com certo nível de segurança, que 50% da audiência sabe a resposta. Então, qualquer nível acima de 75% dos votos indica que mais da metade da platéia sabe a resposta. No entanto, para equilibrar o valor do prêmio entre não responder a pergunta de 1 milhão e respondê-lá com o risco de errar, seria necessário que uma das alternativas tenha 95% dos votos. Para níveis abaixo disso, o jogador estará melhor não respondendo.
 
+## Estratégia ATA --> 50/50
 
+A segunda estratégia - pedir ajuda à audiência e pedir 50/50 - é mais complexa por natureza pois envolve dois fatores adicionais:
+
+1. O aumento do espaço amostral de alternativas (2 alternativas para 4) aumenta a variabilidade das respostas, tornando-se uma faca de dois gumes. Se houver muitas pessoas na pláteia que sabem a resposta, é ótimo pois a correta se destacará. Caso contrário, as alternativas podem se sobrepor, o que "esconde" a alternativa correta;
+
+2. A existência de uma segunda fase após pedir 50/50 gera outro processo de decisão que se baseia diretamente na primeira. Uma das alternativas que irá ficar é correta, evidentemente, mas a outra alternativa é escolhida aleotoriamente. Desse modo, é preciso lembrar a porcentagem dos votos da outra alternativa na etapda anterior para efeito de comparação.
+
+Desse modo, para prosseguir, devemos criar mais uma duas proposições:
+
+**Proposição 9:** A alternativa que ficará na 2º fase da estratégia é a mais votada, além da correta. Se a alternativa mais votada for a correta, a segunda alternativa mais votada ficará. 
+
+**Proposição 10:** O indivíduo não sabe como se dá o processo de seleção das alternativas da 2º fase. 
+
+A construção das propriedades estatísticas das respostas da platéia segue a mesma linha de raciocínio da 1º estratégia. A distribuição resultante é dada pela proposição 11:
+
+**Proposição 11:** As respostas das N pessoas da audiência têm distribuição dada por:
+\begin{equation} A = (Y + Z) \sim (E(Y + Z), Var(Y + Z)) \end{equation
+Onde: $E(A) = E(Y + Z) = \frac{N-3n}{4}$ e $Var(A) = Var(Y + Z) = \frac{3(N-n)}{16}$
+
+Por envolver mais alternativas, a análise comparativa torna-se difícil. Assim, é mais fácil simular vários jogos com diversos números de pessoas que sabem a resposta e avaliar se há alguma tendência nessa 1ª fase. Duas tendência conhecemos: Se ninguém souber a resposta, todos as alternativas terão 25% das respostas, na média; E se todos souberem a resposta, então, uma alternativa terá todas as repostas. Para avaliar a simulação, veja abaixo:  
+
+   ![graphic1](../images/animation.gif)
 

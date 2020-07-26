@@ -9,9 +9,6 @@ location: "City, Country"
 
 ---
 
-# GrowthMacroModels
-Macroeconomic growth models
-
 The study of the determinants of economic growth is an important field of macroeconomic theory. It has many mathematical models 
 which will be transformed into code here.
 

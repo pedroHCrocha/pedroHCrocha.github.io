@@ -1,11 +1,11 @@
 ---
 title: "Growth Macro Models"
 collection: teaching
-type: "Workshop"
+type: ""
 permalink: /teaching/2020-growth-macro-model
-venue: "University 1, Department"
+venue: ""
 date: 2020-01-01
-location: "City, Country"
+location: ""
 
 ---
 

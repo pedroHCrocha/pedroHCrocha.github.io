@@ -1,9 +1,12 @@
 ---
-title: "Macroeconomic growth models"
+title: "Growth Macro Models"
 collection: teaching
-type: ""
-permalink: /teaching/growth-macro-models
-date: 2020-26-07
+type: "Workshop"
+permalink: /teaching/2020-growth-macro-model
+venue: "University 1, Department"
+date: 2020-01-01
+location: "City, Country"
+
 ---
 
 # GrowthMacroModels

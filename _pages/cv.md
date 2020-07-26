@@ -32,7 +32,7 @@ Projetos
   * Público
   * Aplicação em Shiny (R)
   * Busca apresentar dados da Liga Nacional de Basquete de maneira interativa.
-  * Link: https://bigdatabasquete.shinyapps.io/index/
+  * Link: https://bigdatabasquete.shinyapps.io/BigDataBasquete/
   
 * Temas Enem:
   * Privado

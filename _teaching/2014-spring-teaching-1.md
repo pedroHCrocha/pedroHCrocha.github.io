@@ -1,20 +1,37 @@
 ---
-title: "Teaching experience 1"
+title: "Macroeconomic growth models"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+type: ""
+permalink: /teaching/growth-macro-models
+date: 2020-26-07
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+# GrowthMacroModels
+Macroeconomic growth models
 
-Heading 1
-======
+The study of the determinants of economic growth is an important field of macroeconomic theory. It has many mathematical models 
+which will be transformed into code here.
 
-Heading 2
-======
+The models can grossly be divided into two categories: Exogeneous growth and Endogenous growth. The two R codes present simple, but comprehensive functions that find the results from the models bellow. They can be found [here](https://github.com/pedrohcrocha/GrowthMacroModels).
 
-Heading 3
-======
+# Exogeneous growth models
+
+## The Solow Model with Technological Progress
+
+Parameters: 
+
+* s = savings
+* d = depreciation rate
+* n = rate of population growth
+* g = rate of technological progress
+
+# Endogenous growth models
+
+## AK model
+
+Parameters:
+
+* s = savings
+* d = depreciation rate
+* A = technologial coeficient
+

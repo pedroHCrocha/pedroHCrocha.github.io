@@ -55,7 +55,24 @@ Se subtituirmos os valores das cotações pelas equações da probabilidade de v
 
 O mercado atribui um valor para a razão das probabilidades de vitória das equipes. Se o indivíduo acha que o valor da razão das probabilidades é maior que a do mercado (ou seja, o indivíduo acha que a equipe A tem maior chance de vitória), então o mercado está subestimando as probabilidades relativas, de apostar na equipe A em uma proporção maior do que a definida pela razão.
 
-Para avaliar os lucros dessa estratégia de diversificação:
+Para avaliar os lucros dessa estratégia de diversificação, tenha que:
+
+**I) Lucro líquido, se equipe A ganhar**
+\begin{equation} 
+\pi_a = \sigma_a\theta_a - \theta \quad \theta = \theta_a + \theta_b
+\end{equation}
+
+**II) Lucro líquido, se equipe B ganhar**
+\begin{equation} 
+\pi_b = \sigma_b\theta_b - \theta
+\end{equation}
+
+O lucro esperado da estratégia de aposta mista é:
+\begin{equation} 
+E[\pi] = p_a\pi_a + p_b\pi_b 
+\end{equation}
+
+
 
 
 

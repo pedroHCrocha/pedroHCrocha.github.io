@@ -84,7 +84,7 @@ E[\pi] = \frac{\theta(\gamma -\beta)}{\beta}
 \end{equation}
 Onde: $\gamma = \sigma_a\sigma_b$; $\beta = \sigma_a + \sigma_b$
 
-O último resultado é muito interessante. Ele afirma que não importa a combinação do valor das apostas (existem infinitas combinações), o lucro esperado do jogo dependerá apenas das cotações. É interessante justamente porque refuta a ideia levantada anteriormente de diversificação do risco com base em apostas com valores diferentes. Um jogador racionak só deve jogar se o lucro esperado for positivo.  
+O último resultado é muito interessante. Ele afirma que não importa a combinação do valor das apostas (existem infinitas combinações), o lucro esperado do jogo dependerá apenas das cotações. É interessante justamente porque refuta a ideia levantada anteriormente de diversificação do risco com base em apostas com valores diferentes. Um jogador racional só deve jogar se o lucro esperado for positivo.  
 
 A conclusão do modelo é simples: Apostas esportivas são um tipo de jogo no qual as probabilidades do mercado são desconhecidas a priori, mas podem ser calculadas por meio dos valores das cotações. Como base nas probabilidades, ele pode fazer uma aposta simples (aposta em uma equipe) ou aposta mista (em duas equipes). O resultado final é que não importa a combinação dos valores das apostas, a rentabilidade do jogo será dada pelo coeficente do lucro esperado.
 

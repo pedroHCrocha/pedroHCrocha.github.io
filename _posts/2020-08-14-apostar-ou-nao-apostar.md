@@ -12,7 +12,9 @@ Tenha um jogo com as seguintes probabilidades:
 
 **I)** A equipe A tem a probabilidade de vitória $p_a$;
 
-**II)** A equipe B tem a probabilidade de vitória $p_b$.
+**II)** A equipe B tem a probabilidade de vitória $p_b$;
+
+**III)** Não há empate.
 
 Assuma que:
 \begin{equation} 1 > p_a > p_b > 0 \end{equation}
@@ -24,14 +26,19 @@ Assuma também que a cotação da aposta (que é o múltiplo do ganho) é invers
 Desse modo, se o jogador apostar na equipe A e a equipe A ganhar, então o indivíduo sai com o valor que ele apostou vezes a cotação para a equipe A. Mas se a equipe A perde, o indivíduo sai com nada. Se assim, o valor esperado do jogo dado que o jogador apostou na equipe A é:
 
 \begin{equation} 
-E[Jogo|Escolha = A] = p_a(\sigma_a\theta) + p_b(-\sigma_b\theta); \quad \theta = valor apostado
+E[Jogo|Escolha = A] = p_a(\sigma_a\theta) + p_b(-\sigma_b\theta); \quad \theta = \text{valor apostado}
 \end{equation}
 
-O valor de equilíbrio do jogo é dado quando $E[Jogo|Escolha = A] = 0$. Como esse resultado, é possível encontar que:
+O valor de equilíbrio do jogo é dado quando o valor esperado do jogo é igual a 0. Como esse resultado, é possível encontrar que:
 
 \begin{equation} 
 p_a = \frac{\sigma_b}{\sigma_a + \sigma_b} \quad p_b = \frac{\sigma_a}{\sigma_a + \sigma_b}
 \end{equation}
 
+Ou seja, as probabilidades que o mercado (que nesse caso, é a agência de aposta com base na oferta e demanda) estabelece da vitória de cada equipe é uma razão entre as cotações das equipes. Um exemplo númerico é: A equipe *A* tem uma cotação de 1.5 e a equipe *B* tem uma cotação de 3.5. Desse modo, o mercado prevê que a probabilidade de vitória da equipe A é 70% e da equipe B é 30%.
+
+Mas não paramos aí. Suponha que queremos reduzir o risco da nossa aposta. Em finanças, nós queremos fazer um *hedge*. Para isso, iremos investir em apostar nas duas equipes como uma maneira de praticar diversificação. Desse modo, podemos assumir que:
+
+**I)** Dado a equipe A tem maior probabilidade de vitória ($p_a > p_b$), então: $\theta_a > \theta_b$
 
 

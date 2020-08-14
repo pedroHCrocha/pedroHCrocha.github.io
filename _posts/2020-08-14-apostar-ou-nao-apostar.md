@@ -61,6 +61,7 @@ Para avaliar os lucros dessa estratégia de diversificação, tenha que:
 \begin{equation} 
 \pi_a = \sigma_a\theta_a - \theta; \quad \text{onde:} \theta = \theta_a + \theta_b
 \end{equation}
+Onde: $\theta = \theta_a + \theta_b$
 
 **II) Lucro líquido, se equipe B ganhar**
 \begin{equation} 
@@ -76,7 +77,6 @@ Se abrirmos um pouco a equação, teremos que:
 \begin{equation} 
 E[\pi] = (\frac{\sigma_b}{\sigma_a + \sigma_b})(\sigma_a\theta_a - \theta) + (\frac{\sigma_a}{\sigma_a + \sigma_b})(\sigma_b\theta_b - \theta)
 \end{equation}
-Onde: 
 
 Depois de muitas transformações, chegaremos ao seguinte resultado:
 \begin{equation} 
@@ -84,6 +84,7 @@ E[\pi] = \frac{\theta(\gamma -\beta)}{\beta}
 \end{equation}
 Onde: $\gamma = \sigma_a\sigma_b$; $\beta = \sigma_a + \sigma_b$
 
+O último resultado é muito interessante. Ele afirma que não importa a combinação do valor das apostas (existem infinitas combinações), o lucro esperado do jogo dependerá apenas das cotações. É interessante justamente porque refuta a ideia levantada anteriormente de diversificação do risco com base em apostas com valores diferentes. Um jogador racionak só deve jogar se o lucro esperado for positivo.  
 
-
+A conclusão do modelo é simples: Apostas esportivas são um tipo de jogo no qual as probabilidades do mercado são desconhecidas a priori, mas podem ser calculadas por meio dos valores das cotações. Como base nas probabilidades, ele pode fazer uma aposta simples (aposta em uma equipe) ou aposta mista (em duas equipes). O resultado final é que não importa a combinação dos valores das apostas, a rentabilidade do jogo será dada pelo coeficente do lucro esperado.
 

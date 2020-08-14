@@ -24,7 +24,13 @@ Assuma também que a cotação da aposta (que é o múltiplo do ganho) é invers
 Desse modo, se o jogador apostar na equipe A e a equipe A ganhar, então o indivíduo sai com o valor que ele apostou vezes a cotação para a equipe A. Mas se a equipe A perde, o indivíduo sai com nada. Se assim, o valor esperado do jogo dado que o jogador apostou na equipe A é:
 
 \begin{equation} 
-E[Jogo|Escolha = A] = p_a(\sigma_a\theta) + \p_b(-\sigma_b\theta) \quad \theta = valor apostado
+E[Jogo|Escolha = A] = p_a(\sigma_a\theta) + p_b(-\sigma_b\theta); \quad \theta = valor apostado
+\end{equation}
+
+O valor de equilíbrio do jogo é dado quando $E[Jogo|Escolha = A] = 0$. Como esse resultado, é possível encontar que:
+
+\begin{equation} 
+p_a = \frac{\sigma_b}{\sigma_a + \sigma_b} \quad p_b = \frac{\sigma_a}{\sigma_a + \sigma_b}
 \end{equation}
 
 

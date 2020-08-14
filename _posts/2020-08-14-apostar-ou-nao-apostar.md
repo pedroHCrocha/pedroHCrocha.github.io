@@ -76,11 +76,13 @@ Se abrirmos um pouco a equação, teremos que:
 \begin{equation} 
 E[\pi] = (\frac{\sigma_b}{\sigma_a + \sigma_b})(\sigma_a\theta_a - \theta) + (\frac{\sigma_a}{\sigma_a + \sigma_b})(\sigma_b\theta_b - \theta)
 \end{equation}
+Onde: 
 
 Depois de muitas transformações, chegaremos ao seguinte resultado:
 \begin{equation} 
-E[\pi] = \frac{\theta(\gamma -\beta)}{\beta} \quad \gamma = \sigma_a\sigma_b; \beta = \sigma_a + \sigma_b
+E[\pi] = \frac{\theta(\gamma -\beta)}{\beta}
 \end{equation}
+Onde: $\gamma = \sigma_a\sigma_b$; $\beta = \sigma_a + \sigma_b$
 
 
 

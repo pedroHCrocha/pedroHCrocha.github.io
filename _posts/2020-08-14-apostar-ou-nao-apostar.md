@@ -59,7 +59,7 @@ Para avaliar os lucros dessa estratégia de diversificação, tenha que:
 
 **I) Lucro líquido, se equipe A ganhar**
 \begin{equation} 
-\pi_a = \sigma_a\theta_a - \theta \quad \theta = \theta_a + \theta_b
+\pi_a = \sigma_a\theta_a - \theta; \quad \text{onde:} \theta = \theta_a + \theta_b
 \end{equation}
 
 **II) Lucro líquido, se equipe B ganhar**
@@ -72,6 +72,15 @@ O lucro esperado da estratégia de aposta mista é:
 E[\pi] = p_a\pi_a + p_b\pi_b 
 \end{equation}
 
+Se abrirmos um pouco a equação, teremos que:
+\begin{equation} 
+E[\pi] = (\frac{\sigma_b}{\sigma_a + \sigma_b})(\sigma_a\theta_a - \theta) + (\frac{\sigma_a}{\sigma_a + \sigma_b})(\sigma_b\theta_b - \theta)
+\end{equation}
+
+Depois de muitas transformações, chegaremos ao seguinte resultado:
+\begin{equation} 
+E[\pi] = \frac{\theta(\gamma -\beta)}{\beta} \quad \gamma = \sigma_a\sigma_b; \beta = \sigma_a + \sigma_b
+\end{equation}
 
 
 

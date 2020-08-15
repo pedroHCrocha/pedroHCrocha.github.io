@@ -39,7 +39,9 @@ Ou seja, as probabilidades que o mercado (que nesse caso, é a agência de apost
 
 Mas não paramos aí. Suponha que queremos reduzir o risco da nossa aposta. Em finanças, nós queremos fazer um *hedge*. Para isso, iremos investir em apostar nas duas equipes como uma maneira de praticar diversificação. Desse modo, podemos assumir que:
 
-**I)** Dado a equipe A tem maior probabilidade de vitória ($p_a > p_b$), então: $\theta_a > \theta_b$
+**I) Dado a equipe A tem maior probabilidade de vitória ($p_a > p_b$):**
+
+$$\theta_a > \theta_b$$
 
 Assim, para igualar o valor das apostas para ambas equipes, devemos ter que:
 

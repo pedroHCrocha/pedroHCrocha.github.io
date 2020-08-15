@@ -4,7 +4,7 @@ date: 2020-08-14
 tags:
   - estatística
 ---
-Para quem gosta de esporte, existe um submundo que se extende à torcida tradicional. As apostas esportivas ocupam um espaço interesse entre o "nossa, com certeza 
+Para quem gosta de esporte, existe um submundo que se estende à torcida tradicional. As apostas esportivas ocupam um espaço interessante entre o "nossa, com certeza 
 que aquele time vai ganhar" e "quanto você estaria disposto a arriscar nesse resultado?". Mas onde existem o risco e o retorno, moram as probabilidades. E esse é motivo desse
 post. Iremos criar um modelo simples que busca respondem se vale ou não apostar. 
 
@@ -19,7 +19,7 @@ Tenha um jogo com as seguintes probabilidades:
 Assuma que:
 \begin{equation} 1 > p_a > p_b > 0 \end{equation}
 
-Assuma também que a cotação da aposta (que é o múltiplo do ganho) é inversamente proporcional a probabilidade de vitória de uma das equipes:
+Assuma também que a cotação da aposta (que é o múltiplo do ganho) é inversamente proporcional à probabilidade de vitória de uma das equipes:
 
 \begin{equation} 0 < \sigma_a < \sigma_b \end{equation}
 
@@ -59,7 +59,7 @@ Para avaliar os lucros dessa estratégia de diversificação, tenha que:
 
 **I) Lucro líquido, se equipe A ganhar**
 \begin{equation} 
-\pi_a = \sigma_a\theta_a - \theta; \quad \text{onde:} \theta = \theta_a + \theta_b
+\pi_a = \sigma_a\theta_a - \theta
 \end{equation}
 Onde: $\theta = \theta_a + \theta_b$
 

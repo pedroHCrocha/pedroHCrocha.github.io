@@ -1,9 +1,9 @@
 ---
 title: "Growth Macro Models"
 collection: teaching
-type: ""
+type: "R package"
 permalink: /teaching/2020-growth-macro-model
-venue: ""
+venue: "Project"
 date: 2020-01-01
 location: ""
 

@@ -14,6 +14,13 @@ Educação
 * Graduação (1º da turma) em Economia, Universidade Federal da Paraíba, 2014.2-2018.1
 * Mestrando em Economia Aplicada, Universidade Federal da Paraíba, 2019.1 - EM PROGRESSO
 
+Educação adicional
+========
+* MongoDB e Google Cloud - Udemy
+* Terminal Linux - Udemy
+* Sistema Operacional Linux - Udemy
+* Formação de Cientista de Dados - Udemy
+
 Experiência
 ===========
 * 2016 - 2017: Pesquisador Assistente

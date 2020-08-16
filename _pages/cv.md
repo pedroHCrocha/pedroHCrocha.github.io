@@ -19,7 +19,7 @@ Educação adicional
 * MongoDB e Google Cloud - Udemy (2019)
 * Terminal Linux - Udemy (2019)
 * Sistema Operacional Linux - Udemy (2019)
-* Formação de Cientista de Dados - Udemy (2019)
+* Formação de Cientista de Dados em R e Python - Udemy (2019)
 
 Experiência
 ===========

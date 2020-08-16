@@ -23,6 +23,11 @@ Educação adicional
 
 Experiência
 ===========
+* 2014-2015: Monitor
+  * Cultura Inglesa
+
+* 201 
+
 * 2016 - 2017: Pesquisador Assistente
   * Universidade Federal da Paraíba
   * Atividades: Pesquisa científica; Mineração de Dados; Modelagem estatística.

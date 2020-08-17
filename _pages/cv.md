@@ -44,21 +44,27 @@ Projetos
   * Público
   * Aplicação em Shiny (R)
   * Busca apresentar dados da Liga Nacional de Basquete de maneira interativa.
-  * Link: https://bigdatabasquete.shinyapps.io/BigDataBasquete/
+  * Link: [https://bigdatabasquete.shinyapps.io/BigDataBasquete/](https://bigdatabasquete.shinyapps.io/BigDataBasquete/)
   
 * Temas Enem:
   * Privado
   * Node.JS (Back-end); HTML, CSS, JS (Front-end)
   * Oferecer informações e notícias de diversas fontes focados nos temas da redação do ENEM
-  * Acesso: Enviar e-mail para pedrohenriquecavalcantirocha@gmail.com
+  * Acesso: enviar e-mail para pedrohenriquecavalcantirocha@gmail.com
 
-Habilidades
+Tecnologias
 ===========
 * R (Shiny, Rmarkdown)
-* Python (pandas,numpy,scikit-learn)
+* Python (pandas, numpy, scikit-learn)
 * Web-scrapping (selenium-py)
-* Git 
 * HTML 5, CSS 3, Bootstrap 4
 * Latex
 * JavaScript (em treinamento)
+* Django (em treinamento)
+* SQL (MySQL e PostgreSQL) (em treinamento)
+
+Comunicação
+===========
+* Inglês fluente
+* Francês intermediário
 

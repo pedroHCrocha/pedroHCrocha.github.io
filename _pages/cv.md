@@ -23,12 +23,12 @@ Educação adicional
 
 Experiência
 ===========
-* 2014-2015: Monitor
-  * Cultura Inglesa
 
-* 201 
+* 2016.4 - 2017.8 : Jovem Aprendiz
+  * Grupo Newland
+  * Atividades: Auxílio à atividades administrativas
 
-* 2016 - 2017: Pesquisador Assistente
+* 2017.8 - 2018.8: Pesquisador Assistente
   * Universidade Federal da Paraíba
   * Atividades: Pesquisa científica; Mineração de Dados; Modelagem estatística.
   * Supervisor: Phd. Hélio de Ramos de Sousa Filho

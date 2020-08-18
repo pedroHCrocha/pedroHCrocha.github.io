@@ -20,6 +20,7 @@ Educação adicional
 * Terminal Linux - Udemy (2019)
 * Sistema Operacional Linux - Udemy (2019)
 * Formação de Cientista de Dados em R e Python - Udemy (2019)
+* Python 3 - Curso Completo do Básico ao Avançado - Udemy (2020)
 
 Experiência
 ===========

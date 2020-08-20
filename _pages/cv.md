@@ -21,6 +21,7 @@ Educação adicional
 * [Python 3 - Curso Completo do Básico ao Avançado - Udemy - 2020](https://udemy-certificate.s3.amazonaws.com/pdf/UC-1ea1c0a2-7037-4341-943e-3cd0cde2726e.pdf)
 * [Terminal Linux - Udemy - 2020](https://github.com/pedrohcrocha/pedrohcrocha.github.io/blob/master/files/Certificado Terminal.pdf)
 * [Sistema Operacional Linux - Udemy - 2020](https://github.com/pedrohcrocha/pedrohcrocha.github.io/blob/master/files/Certificado Linux.pdf)
+* [Machine Learning e Data Science com Python de A a Z](https://udemy-certificate.s3.amazonaws.com/pdf/UC-f3ff1cfd-3ba0-4b0d-9f2e-bd31b4c8afb6.pdf)
 
 Experiência
 ===========

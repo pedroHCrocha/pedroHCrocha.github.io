@@ -22,6 +22,7 @@ Educação adicional
 * [Terminal Linux - Udemy - 2020](https://github.com/pedrohcrocha/pedrohcrocha.github.io/blob/master/files/Certificado Terminal.pdf)
 * [Sistema Operacional Linux - Udemy - 2020](https://github.com/pedrohcrocha/pedrohcrocha.github.io/blob/master/files/Certificado Linux.pdf)
 * [Machine Learning e Data Science com Python de A a Z - Udemy - 2020](https://udemy-certificate.s3.amazonaws.com/pdf/UC-f3ff1cfd-3ba0-4b0d-9f2e-bd31b4c8afb6.pdf)
+* [Machine Learning and Data Science Hands-on with Python and R - Udemy - 2020](https://www.udemy.com/certificate/UC-39f75556-6166-4a39-87fa-19c3b3e8ddd3/)
 
 Experiência
 ===========
